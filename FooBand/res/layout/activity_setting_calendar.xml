@@ -1,0 +1,276 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/background3"
+    android:orientation="vertical" >
+   
+	<include layout="@layout/included_setting_activity_title" />
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/id_tv_setting_calendar_descriptor"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/menu_apart_title_margin_left"
+	            android:layout_marginTop="@dimen/menu_apart_title_margin_top"
+	            android:text="@string/string_function_agendar_reminder_descriptor"
+	            android:textColor="@color/gray"
+	            android:textSize="@dimen/menu_apart_title_text_size"
+	            android:textStyle="bold" />
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="6dp"
+	            android:background="@color/white"
+	            android:orientation="vertical" >
+
+	            <ImageView
+	                android:id="@+id/divider00"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_calendar0"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar0_title"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true" 
+                           android:layout_marginTop="8dp"                         
+                           android:text="@string/string_function_agendar_reminder_title_default"
+                           android:textColor="@color/gray"
+                           android:textSize="24sp" />
+
+                       <com.grdn.widgets.SwitchButton
+                           android:id="@+id/id_sb_calendar0_active_flag"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true"
+                           android:layout_gravity="right|center_vertical"
+                           android:padding="6dp"
+                           android:paddingTop="10dp" />
+                   	                 
+                       <TextView
+                           android:id="@+id/id_tv_calendar0_datetime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_marginTop="43dp"
+                           android:text="@string/string_function_agendar_reminder_datetime_default"
+                           android:textColor="@color/gray"
+                           android:textSize="16sp" />
+                 	               
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView04"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_calendar1"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+	             
+                       <TextView
+                           android:id="@+id/id_tv_calendar1_title"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_marginTop="8dp" 
+                           android:text="@string/string_function_agendar_reminder_title_default"
+                           android:textColor="@color/gray"
+                           android:textSize="24sp" />
+
+                       <com.grdn.widgets.SwitchButton
+                           android:id="@+id/id_sb_calendar1_active_flag"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true"
+                           android:layout_gravity="right|center_vertical"
+                           android:padding="6dp" 
+                           android:paddingTop="10dp"/>
+                   
+                       <TextView
+                           android:id="@+id/id_tv_calendar1_datetime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/string_function_agendar_reminder_datetime_default"
+                           android:textColor="@color/gray"
+                           android:textSize="16sp"
+                           android:layout_marginTop="43dp" />
+	                
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView01"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_calendar2"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar2_title"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_marginTop="8dp"    
+                           android:text="@string/string_function_agendar_reminder_title_default"
+                           android:textColor="@color/gray"
+                           android:textSize="24sp" />
+
+                       <com.grdn.widgets.SwitchButton
+                           android:id="@+id/id_sb_calendar2_active_flag"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true"
+                           android:layout_gravity="right|center_vertical"
+                           android:padding="6dp"
+                           android:paddingTop="10dp" />
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar2_datetime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/string_function_agendar_reminder_datetime_default"
+                           android:textColor="@color/gray"
+                           android:textSize="16sp"
+                           android:layout_marginTop="43dp" />
+	                        
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView03"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_calendar3"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar3_title"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_marginTop="8dp"  
+                           android:text="@string/string_function_agendar_reminder_title_default"
+                           android:textColor="@color/gray"
+                           android:textSize="24sp" />
+
+                       <com.grdn.widgets.SwitchButton
+                           android:id="@+id/id_sb_calendar3_active_flag"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true"
+                           android:layout_gravity="right|center_vertical"
+                           android:padding="6dp" 
+                           android:paddingTop="10dp" />
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar3_datetime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/string_function_agendar_reminder_datetime_default"
+                           android:textColor="@color/gray"
+                           android:textSize="16sp"
+                           android:layout_marginTop="43dp" />
+                       
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView02"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_calendar4"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar4_title"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentLeft="true"
+                           android:layout_marginTop="8dp"     
+                           android:text="@string/string_function_agendar_reminder_title_default"
+                           android:textColor="@color/gray"
+                           android:textSize="24sp" />
+
+                       <com.grdn.widgets.SwitchButton
+                           android:id="@+id/id_sb_calendar4_active_flag"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:layout_alignParentRight="true"
+                           android:layout_centerVertical="true"
+                           android:layout_gravity="right|center_vertical"
+                           android:padding="6dp"
+                           android:paddingTop="10dp" />
+
+                       <TextView
+                           android:id="@+id/id_tv_calendar4_datetime"
+                           android:layout_width="wrap_content"
+                           android:layout_height="wrap_content"
+                           android:text="@string/string_function_agendar_reminder_datetime_default"
+                           android:textColor="@color/gray"
+                           android:textSize="16sp"
+                           android:layout_marginTop="43dp" />
+	                        
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView05"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+	        </LinearLayout>
+
+	    </LinearLayout>
+	</ScrollView>
+
+   
+	
+</LinearLayout>

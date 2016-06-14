@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fooband2</string>
+	<string name="app_title">Fooband2</string>
+    
+    <string name="app_version">Version 2.01D</string>
+    <string name="app_thanks_alot">스마트 팔찌를 사용해 주셔서 감사합니다.</string>
+    
+	<string name="error_android_version_too_low">您的手机无法适配极致手环，程序即将关闭!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020安卓版本过低!</string>
+    <string name="error_bluetooth_version_too_low">您的手机无法适配极致手环, 程序即将关闭!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020蓝牙硬件不支持BLE!</string>
+    
+    <string name="string_user_account">이메일 주소를 입력(ex 123@123.com)</string>
+    <string name="string_user_password">비밀 번호를 입력하십시오6–16자</string>
+    
+    <string name="string_user_login_login">로그인</string>
+    <string name="string_user_login_register">계정 없음</string>
+    
+    <string name="exit_app">다시 한 번 종료 시 </string>
+    
+    <!-- password_recoverd start -->
+    <string name="string_user_password_recoverd">비밀번호 찾기</string>
+    <string name="string_user_password_complete">비밀번호 찾기</string>
+    <string name="string_user_passwrod_recovered_back">로그인</string>
+    <string name="string_user_passwrod_code_doing">하 잠깐만 요</string>
+    <string name="string_user_passwrod_code_sucess">검증 야드 가 성공적 으로 발송 했 다！</string>
+    <string name="string_user_passwrod_code_failure">작업이 실패했습니다. 다시 시도하십시오！</string>
+    <string name="string_login_code_error">작업이 실패했습니다. 다시 시도하십시오！</string>
+    <string name="string_user_password_code_error">패스워드 입력 오류！</string>
+    <string name="string_user_password_recovered_success">성공, 사수하여 주십시오 새로운 비밀번호！</string>
+    <string name="string_user_password_recoverd_hint">좀 검증 야드</string>
+    <string name="string_user_password_recover_content">비밀번호 찾기 버튼을 누루시면 고객님의 이메일 주소로 새로운 비밀번호가 전송됩니다. 전송된후 메일을 확인해주세요.</string>
+    <!-- password_recoverd end -->
+    
+	<string name="string_user_register_login">이미 계정을 가지고 있음</string>
+    <string name="string_user_register_register">등록</string>
+   
+	<string name="string_user_login_notice">당신이 계약의 궁극적 인 삶을 준수 할 것을 동의 로그인</string>
+    <string name="string_user_register_notice">당신이 계약의 궁극적 인 삶을 준수 할 것을 동의 가입</string>
+    <string name="string_user_notice_content">이용 약관 및 개인 정보 보호 정책</string>
+    
+	<string name="string_find_new_app_version">업데이트 확인</string>
+	<string name="string_find_new_app_version_none">App 현재 최신 버전!</string>
+    <string name="string_find_new_app_version_content">새 버전을 설치 하시려면 클릭, %1$s</string>
+    
+    <string name="string_notification_read_authorize_title">권한을 부여받은</string>
+	<string name="string_notification_read_authorize_message">이 응용 프로그램은 알림 표시 줄에 액세스해야!</string>
+    
+    <string name="dummy"> </string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="string_notice_push_to_refresh">데이터 동기화할 수 있는 드롭 다운</string>
+    
+    <string name="string_menu_sport">운동</string>
+    <string name="string_menu_sleep">수면</string>
+    <string name="string_menu_rank">랭킹</string>
+    <string name="string_menu_friends">好友</string>
+    <string name="string_menu_setting">설정</string>
+    
+    <string name="string_usr_info_image_title">사용자 아바타</string>
+    
+	<string name="string_total_calorics">%1$d칼로리</string>
+    <string name="string_distance">%1$.2f킬로미터</string>
+	<string name="string_active_calorics">%1$d칼로리</string>
+	<string name="string_active_time">%1$s%2$d분</string>
+	
+	<string name="string_light_sleep_time">" 가벼운 잠: %1$s%2$d분"</string>
+	<string name="string_deep_sleep_time">" 깊은 잠: %1$s%2$d분"</string>
+	<string name="string_awake_count">" 기상: %1$d次"</string>
+	<string name="string_awake_time">" 기상: %1$s%2$d분"</string>
+	
+	<string name="string_title_sport_descript">운동</string>
+	<string name="string_title_sport_datetime">오늘</string>
+	<string name="string_title_sleep_descript">효과적인 수면</string>
+	<string name="string_title_sleep_datetime">어제 저녁</string>
+	
+	<string name="string_date_format">yyyy년MM달dd일</string>
+	
+	<string name="string_time_hour">%1$d시간</string>
+	
+	<string name="string_time_hour_unit">시간</string>
+	<string name="string_time_minute_unit">분</string>
+	
+	<string name="string_input_nickname_please">닉네임 입력하십시오:</string>
+	
+	<string name="string_please_register_first">로그인 해주세요！</string>
+	<string name="string_refresh_success">동기화 성공！</string>
+	<string name="string_refresh_failure_0">동기화 실패, 주변 장치에 있는지 확인하십시오 ！</string>
+	<string name="string_refresh_failure_1">동기화 실패, 다시 시도하십시오 ！</string>
+	<string name="string_refresh_failure_2">동기화 실패, 다시 시도하십시오 ！</string>
+	<string name="string_config_success">설정 성공！</string>
+	<string name="string_config_failure">잠시 기다려주십시오！</string>
+	
+	<string name="string_login_doing">상륙 중&#8230;</string>
+	<string name="string_login_success">상륙 성공！</string>
+	<string name="string_login_error">계좌 번호 나 비밀번호 오류！</string>
+	<string name="string_login_account_error">입력 오류 계정！</string>
+	<string name="string_login_password_error">비밀번호 입력 오류！</string>
+	<string name="string_login_re_password_error">반복 패스워드 입력 오류！</string>
+	<string name="string_newwork_error">네트워크에 요청 시간 초과됨</string>
+	<string name="string_network_timeout">네트워크에 요청 시간 초과됨</string>
+	
+	<string name="string_register_error_account_exsist">계정이 이미 존재합니다！</string>
+	<string name="string_register_success">등록 성공, 로그인&#8230;</string>
+	
+	<string name="dfu_file_size_text">%d bytes</string>
+	<string name="dfu_progress_bar_percent">0%</string>
+	<string name="dfu_progress_bar_status">연결 중</string>
+	<string name="dfu_update_rom_success">펌웨어 업그레이드는 성공적으로 하였습니다.</string>
+	<string name="dfu_update_device_info">장치 정보 업데이트 중&#8230;</string>
+	
+	<string name="dfu_update_rom_failure">펌웨어 업그레이드 실패</string>
+	<string name="dfu_update_device_info2">펌웨어는 1 분 이내에 재설정&#8230;</string>
+	
+	<string name="httpError">네트워크 변형</string>
+	<string name="deviceError">결합 장치주십시오</string>
+
+    <!--  FOR BLUETOOTH BLE  -->
+    <string name="ble_not_supported"> 이 장치는 블루투스 4.0 BLE를 지원하지 않습니다</string>
+    
+    
+    <!-- ATTENTION -->
+    <string name="bind_device_attention">"장비는 화면의 우측 상단 또는 좌측 하단으로 휴대폰, 바인딩에 최대한 가깝게"</string>
+    
+    <!-- TITLE -->
+	<string name="string_tv_pairs_title">새로운 장비의 결합</string>
+	
+	<!-- BUTTON -->
+	<string name="string_btn_pairs_start">새로운 장비를 결합하기 시작</string>
+    
+	<!-- DIALOG PAIRS -->
+	<string name="string_dialog_pairs_title_no_device">장치를 찾을 수 없습니다！</string>
+	<string name="string_dialog_pairs_title">장치의 결합？</string>
+	<string name="string_dialog_unpairs_title">연결 해제？</string>
+	<string name="string_dialog_pairs_message_header"> </string>
+	<string name="string_dialog_pairs_message_device_name">"  장치 이름："</string>
+	<string name="string_dialog_pairs_message_device_hw_version">"  하드웨어 버전："</string>
+	<string name="string_dialog_pairs_message_device_fw_version">"  펌웨어 버전："</string>
+	<string name="string_dialog_pairs_message_device_serial_number">"  일련 번호："</string>
+	<string name="string_dialog_pairs_message_tailer"> </string>
+	
+	<!-- DIALOG CHECK ROM -->
+	<string name="string_dialog_check_newest_rom_version">새 버전 확인</string>
+	<string name="string_dialog_checking_newest_rom_version">새 버전 확인 중&#8230;</string>
+	<string name="string_dialog_current_rom_is_newest">현재 최신 버전입니다！</string>
+	<string name="string_dialog_title_upgrade_rom">새로운 펌웨어를 감지:</string>
+	<string name="string_dialog_message_upgrade_rom">즉시 업데이트？</string>
+	
+	<!-- DIALOG CONFIRM BUTTON -->
+	<string name="string_dialog_positive">확인</string>
+	<string name="string_dialog_negative">취소</string>
+	
+	<!-- DIALOG CONFIGUTATE CONFIRM -->
+
+	<string name="string_step_unit">걸음</string>
+	<string name="string_distance_unit">킬로미터</string>
+	<string name="string_my_rank">나의 순위 %1$d</string>
+	
+	<string name="string_last_sync_time">마지막 동기화: %1$s</string>
+	
+	<!-- DIALOG SETTING ALARM -->
+	<string name="string_alarm_dialog_hour_minute_divider">:</string>
+	<string name="string_alarm_dialog_sunday">일</string>
+	<string name="string_alarm_dialog_monday">월</string>
+	<string name="string_alarm_dialog_tuesday">화</string>
+	<string name="string_alarm_dialog_wednesday">수</string>
+	<string name="string_alarm_dialog_thursday">목</string>
+	<string name="string_alarm_dialog_friday">금</string>
+	<string name="string_alarm_dialog_saturday">토</string>
+	<string name="string_alarm_dialog_week0">일</string>
+	<string name="string_alarm_dialog_week1">월</string>
+	<string name="string_alarm_dialog_week2">화</string>
+	<string name="string_alarm_dialog_week3">수</string>
+	<string name="string_alarm_dialog_week4">목</string>
+	<string name="string_alarm_dialog_week5">금</string>
+	<string name="string_alarm_dialog_week6">토</string>
+	<string name="string_alarm_dialog_circle_true">반복 주간</string>
+	<string name="string_alarm_dialog_circle_false">이번 주</string>
+	
+	<string name="string_disturb_mode_dialog_divider0">"포인트 ~ "</string>
+	<string name="string_disturb_mode_dialog_divider1">포인트</string>
+
+	<!-- SETTING & MENU -->
+	<string name="string_global_setting">설정</string>
+		<!-- USER INFORMATION -->
+		<string name="string_user_central">개인 센터</string>
+		<string name="string_user_account_info">계정 정보</string>
+			<string name="string_first_name">이름</string>
+			<string name="string_last_name">성</string>
+			<string name="string_nick_name">별명</string>
+			<string name="string_account_name">계정</string>
+			<string name="string_get_my_password">비밀번호 분실</string>
+		<string name="string_user_info">개인 정보</string>
+			<string name="string_user_nickname">별명</string>
+			<string name="string_user_id">사용자 ID</string>
+			<string name="string_user_height">높이</string>
+			<string name="string_user_height_unit">CM</string>
+			<string name="string_user_weight">무게</string>
+			<string name="string_user_weight_unit">KG</string>
+			<string name="string_user_sexy">성별</string>
+			<string name="string_user_birthday">생년월일</string>
+			<string name="string_setting_user_image_notice">프로필 사진  얼굴 사진!</string>
+		<string name="string_setting_targets">목표 설정</string>
+			<string name="string_setting_targets_sport">"매일 운동: 단계"</string>
+			<string name="string_setting_targets_sleep">"매일 수면 : 시간"</string>
+		<string name="string_device_info">장치 정보</string>	
+			<string name="string_device_name">장치 이름：%1$s</string>
+			<string name="string_device_partnumber">장비 유형：</string>
+			<string name="string_device_hw_version">하드웨어 버전：%1$s</string>
+			<string name="string_device_fw_version">펌웨어 버전：%1$s</string>
+			<string name="string_device_check_fw_version">업데이트 확인</string>
+			<string name="string_device_serial_number">"일련 번호    ：%1$s"</string>
+		<string name="string_device_funciton_setting">기능 세트</string>
+			<string name="string_function_agendar_reminder">달력</string>
+			<string name="string_function_agendar_reminder_descriptor">예정</string>
+			<string name="string_function_agendar_reminder_title_default">집으로 돌아 가기</string>
+			<string name="string_function_agendar_reminder_datetime_default">2020–12–30 금요일에 17:18</string>
+			<string name="string_function_sedentary_reminder">정주의 알림</string>
+			<string name="string_function_sedentary_invert_time">"활동에 도달하는 시간없이    %1$d 시간 %2$02d 분"</string>
+			<string name="string_function_alarm_reminder">알람</string>
+			<string name="string_function_alarm_reminder_descriptor">알람 설정</string>
+			<string name="string_function_call_reminder">전화 알림</string>
+			<string name="string_function_message_reminder">문자 알림</string>
+			<string name="string_function_stopwatch_enable">코드 테이블 전환</string>
+			<string name="string_setting_stopwatch_notice">"팁 : 오픈 코드 표 스위칭, 손에 반지를 입력하거나 스톱워치 모드를 종료 3 초 길게 누르면 '페이지 단계'를"</string>
+		<string name="string_device_display_controller">디스플레이 제어</string>	
+			<string name="string_device_display_daylight_saving_time">서머 타임</string>
+			<string name="string_device_display_time_format_24h">24 시간</string>
+			<string name="string_device_display_date_and_week">날짜 및 시간 보이기</string>
+			<string name="string_device_display_sport_distance">이동량 표시</string>
+			<string name="string_device_display_total_caloric">칼로리 소모량 표시</string>
+			<string name="string_device_display_total_sleep_time">수면 시간 표시</string>
+		<string name="string_setting_no_disturb_mode">45도 자동시간 확인</string>
+			<string name="string_setting_no_disturb_mode_enable">45도 자동시간 확인</string>
+			<string name="string_setting_no_disturb_time">시간설정</string>
+			<string name="string_setting_no_disturb_time_content0">%1$02d시~%2$02d시</string>
+			<string name="string_setting_no_disturb_time_content1">%1$02d시~%2$02d시</string>
+			<string name="string_setting_no_disturb_notice">"45도 각도에서 자동으로 시간을 확인할수 있는 기능"</string>
+		<string name="string_setting_app_about">APP 소개</string>
+			<string name="string_setting_app_info_version">버전</string>
+			<string name="string_setting_app_info_manufacturer">상사</string>
+			<string name="string_setting_app_info_homepage">홈</string>
+			<string name="string_setting_app_info_homepage_content">www.foogeez.com</string>
+			<string name="string_setting_user_agreement">사용자 계약</string>
+			<string name="string_setting_check_app_new_version">검사 갱신</string>
+			<string name="string_setting_mobile_manufacturer">휴대 전화 제조 업체 : %1$s</string>
+			<string name="string_setting_mobile_model">전화기 모델 : %1$s</string>
+			<string name="string_setting_android_suitability_test">앤드류 적응 : Android %1$s</string>
+			<string name="string_setting_bluetooth_suitability_test">블루투스 어댑터: %1$s</string>
+		
+		<string name="string_setting_device_bind_state">장비 연결 상태：</string>	
+		<string name="string_btn_bind_new_device_with_user">새로운 장비의 결합</string>	
+		<string name="string_btn_release_current_device_bond">연결 해제</string>	
+		<string name="string_btn_current_user_login_out">사용자 계정 탈퇴</string>	
+	<string name="string_enjoy_fooband">스마트 팔찌를 휴식하는 방법</string>
+	
+	<string name="string_list_is_loading">불러 오는 중…</string>
+	
+	<string name="string_user_id_content">%1$s</string>
+	<string name="string_user_nickname_content">%1$s</string>
+	<string name="string_user_height_content">%1$dCM</string>
+	<string name="string_user_weight_content">%1$dKG</string>
+	<string name="string_user_birthday_content">%1$s</string>
+		<string name="string_user_birthday_year">1980</string>
+		<string name="string_user_birthday_month">09</string>
+		<string name="string_user_birthday_day">28</string>
+		<string name="string_user_birthday_year_unit">년</string>
+		<string name="string_user_birthday_month_unit">월</string>
+		<string name="string_user_birthday_day_unit">일</string>
+	<string name="string_user_sexy_content">%1$s</string>
+		<string name="string_user_sexy_man">남</string>
+		<string name="string_user_sexy_woman">여</string>
+	
+	<!-- Name:Robin  Time:20150921  Function:显示跑步的数量 -->
+	<string name="string_steps_content">%1$d 몇 걸음</string>
+	<string name="user_target_steps_text">몇 걸음</string>
+	<string name="tv_setting_steps">10000 몇 걸음</string>
+	
+	<string name="string_sleep_hours_content">%1$d 시간</string>
+	<string name="user_target_sleep_text">시간</string>
+	<string name="tv_setting_sleep">8 시간</string>
+	
+	<!-- Name:Robin  Time:20150924  Function:  修改密码 -->
+	<string name="string_user_info_change_pwd">비밀번호 변경</string>	
+	<string name="string_user_password_old">원래 암호를 입력하십시오.</string>
+	<string name="string_user_password_new">새로운 암호를 입력하십시오.</string>
+	<string name="string_user_password_new_re">다시 새로운 비밀번호를 입력하십시오.</string>
+	<string name="string_user_pwd_change_submit">제출</string>
+	<string name="string_old_pwd_error">원래 암호가 잘못되었습니다.</string>
+	<string name="string_new_pwd_error">새 암호 형식이 잘못되었습니다</string>
+	<string name="string_doing_submit">새로운 암호를 제출하다</string>
+	<string name="string_change_pwd_failure">비밀번호 변경 실패, 좀 다시 수정</string>
+	<string name="string_change_pwd_success">암호 변경 성공을 거두었다.</string>
+	<string name="string_setting_new_password">새로운 암호를 설정</string>
+	
+	<string name="string_loading_data">데이터</string>
+	
+	<string name="string_login_code_error_send">바로 새로운 암호를 보내서. 잠시만 기다려 주십시오&#8230;</string>
+	<string name="get_test_code">가서</string>
+	<string name="again_get_test_code">다시 암호를 입력하십시오</string>
+	
+	<!-- Name:Robin  Time:20150918  Function:注册时的密码提醒  -->
+    <string name="string_user_register_password_notice">길이 좀 비밀번호 6 - 16 인물.등록 것을 허락해 준수해야 한다 Medion</string>
+
+	<!-- Name:Robin  Time:20150925  Function: 新增提示  -->
+	<string name="string_register_doing">지금 등록</string>
+	
+	<!-- 退出提示 -->
+	<string name="exit_notice">N5 어플</string>
+	<string name="exit_content">종료하기</string>
+	<string name="exit_select_back">숨기기</string>
+	<string name="exit_select_exit">종료</string>
+	
+	<!-- 分享提示相关 -->
+	<string name="share_start">이제 공유&#8230;</string>
+	<string name="share_complete">주식 완전히!</string>
+	<string name="share_title_sport">나는 운동</string>
+	<string name="share_title_sleep">나는 잘 시간</string>
+	<string name="share_title_rank">공유 Foogeez</string>
+	<string name="share_dialog_title">공유</string>
+	
+	<!-- APP 更新相关 -->
+	<string name="apk_is_downloading">다운로드 중</string>
+	<string name="apk_is_downloading_wait">좀 이따</string>
+	<string name="apk_is_connected_internet">지금 망 좀 이따 검사 중</string>
+	
+	<!-- 头像上传提示 -->
+	<string name="avatar_update_success">아바타 업로드 성공!</string>
+	
+	<!-- 注册后直接登录 -->
+	<string name="setting_usr_info_act_basic_title">완벽한 개인 정보</string>
+	<string name="setting_usr_info_act_detail_title">나는 자료를</string>
+	<string name="setting_usr_info_detail_complete">완성하다</string>
+	<string name="string_title_skip">뛰어넘다</string>
+	<string name="edittext_usr_info_basic">입력하십시오 별명</string>
+	<string name="setting_usr_info_act_basic_next_btn">다음</string>
+	<string name="please_set_the_avatar">일단 설정 아바타</string>
+	<string name="please_set_the_nickname">일단 별명 설정</string>
+	<string name="please_set_the_height">일단 설정 키</string>
+	<string name="please_set_the_weight">일단 설정 체중</string>
+	<string name="please_set_the_sex">일단 설정 성별</string>
+	<string name="please_set_the_birthday">일단 설정 생일</string>
+	
+	<!-- 下拉刷新 没有网络时的提示 -->
+	<string name="no_network_state_notice">네트워크 설정 없다, 네트워크 연결 좀!</string>
+	
+	<!-- 无网络情况下，基本资料设置页面提示 -->
+	<string name="avatar_update_no_network_fail">아바타 업로드 실패 좀 네트워크!</string>
+	<string name="change_user_info_no_network_fail">변경 실패 좀 네트워크!</string>
+	
+</resources>

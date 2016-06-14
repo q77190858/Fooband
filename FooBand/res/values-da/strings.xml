@@ -1,0 +1,350 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fooband2</string>
+    <string name="app_title">Fooband2</string>
+    
+    <string name="app_version">Version 2.01D</string>
+    <string name="app_thanks_alot">Tak, fordi du bruger Medions intelligente armbånd - "Fooband2"!</string>
+    
+	<string name="error_android_version_too_low">Android-versionen er for gammel,programmet lukkes!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="error_bluetooth_version_too_low">Bluetooth understøtter ikke BLE, programmet lukkes!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    
+    <string name="string_user_account">Indtast din e-mailadresse.</string>
+    <string name="string_user_password">ndtast en6&#8211;16 adgangskode</string>
+    
+    <string name="string_user_login_login">Log på</string>
+    <string name="string_user_login_register">Registrer</string>
+    
+	<string name="string_user_register_login">Logon</string>
+    <string name="string_user_register_register">Registrer</string>
+    
+    <string name="exit_app">Klik igen for at afslutte app</string>
+    
+     <!-- password_recoverd start -->
+    <string name="string_user_password_recoverd">Glemt kodeord?</string>
+    <string name="string_user_password_complete">Hente password</string>
+    <string name="string_user_passwrod_recovered_back">Tilbage</string>
+    <string name="string_user_passwrod_code_doing">I behandling, vent venligst</string>
+    <string name="string_user_passwrod_code_sucess">Sendt Kode succes verificeret.</string>
+    <string name="string_user_passwrod_code_failure">Operation fejl, prøv igen!</string>
+    <string name="string_login_code_error">Operation fejl, prøv igen!</string>
+    <string name="string_user_password_code_error">Verificere koden fejl!</string>
+    <string name="string_user_password_recovered_success">Password genvundet held, kan du tjekke din nye adgangskode!</string>
+    <string name="string_user_password_recoverd_hint">Bedes input verificere koden.</string>
+    <string name="string_user_password_recover_content">Genererer systemet en ny adgangskode og sender det til din e-mail-adresse. Medion respekterer dit privatliv. Adgangskoden er krypteret, ingen andre kan se det.</string>
+   <!-- password_recoverd end -->
+    
+	<string name="string_user_login_notice">Når du logger på, accepterer du at overholde Medion</string>
+    <string name="string_user_register_notice">Når du registrerer, accepterer du at overholde Medion</string>
+    <string name="string_user_notice_content">BRUGERAFTALE OG POLITIK FOR BESKYTTELSE AF PERSONLIGE OPLYSNINGER</string>
+   
+	<string name="string_find_new_app_version">Tjek App-opdatering</string>
+	<string name="string_find_new_app_version_none">Den aktuelle APP-version er den nyeste!</string>
+    <string name="string_find_new_app_version_content">Der blev en nyere APP-version %1$s,  klik for at installere！</string>
+    
+    <string name="string_notification_read_authorize_title">Godkend venligst</string>
+	<string name="string_notification_read_authorize_message">Dette program kræver adgang til underretningslinjen！</string>
+    
+    <string name="dummy"> </string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="string_notice_push_to_refresh">træk ned her for at opdatere datoen!</string>
+    
+    <string name="string_menu_sport">Sport</string>
+    <string name="string_menu_sleep">Søvn</string>
+    <string name="string_menu_rank">Rangliste</string>
+    <string name="string_menu_friends">Venner</string>
+    <string name="string_menu_setting">Indstilling</string>
+    
+    <string name="string_usr_info_image_title">Brugerens billede</string>
+    
+	<string name="string_total_calorics">%1$d kcal</string>
+    <string name="string_distance">%1$.2f kilometer</string>
+	<string name="string_active_calorics">%1$d kcal</string>
+	<string name="string_active_time">%1$s%2$d minutter</string>
+	
+	<string name="string_light_sleep_time">" MV.SLP: %1$s%2$d min."</string>
+	<string name="string_deep_sleep_time">" DP.SLP: %1$s%2$d min."</string>
+	<string name="string_awake_count">" vågen: %1$d gange"</string>
+	<string name="string_awake_time">" vågen: %1$s%2$d minutter"</string>
+	
+	<string name="string_title_sport_descript">Sport</string>
+	<string name="string_title_sport_datetime">I dag</string>
+	<string name="string_title_sleep_descript">Effektiv søvn</string>
+	<string name="string_title_sleep_datetime">Sidste nat</string>
+	
+	<string name="string_input_nickname_please">indtast kaldenavn:</string>
+	
+	<string name="string_please_register_first">Log på!</string>
+	<string name="string_refresh_success">Synkronisering udført!</string>
+	<string name="string_refresh_failure_0">Synkronisering mislykkedes, kontroller, at enheden er i nærheden!</string>
+	<string name="string_refresh_failure_1">Bluetooth-synkronisering mislykkedes, prøv igen!</string>
+	<string name="string_refresh_failure_2">Bluetooth-synkronisering mislykkedes, prøv igen!</string>
+	<string name="string_config_success">Indstilling gennemført!</string>
+	<string name="string_config_failure">Vent et øjeblik!</string>
+	
+	<string name="string_login_doing">Logger på, prøve senere&#8230;</string>
+	<string name="string_login_success">Der er logget på!</string>
+	<string name="string_login_error">Kontoen eller adgangskoden er forkert!</string>
+	<string name="string_login_account_error">Fejl ved indtastning af konto!</string>
+	<string name="string_login_password_error">Fejl ved indtastning af adgangskode!</string>
+	<string name="string_login_re_password_error">Fejl ved indtastning af gentaget adgangskode!</string>
+	<string name="string_newwork_error">tjek netværket</string>
+	<string name="string_network_timeout">Timeout for netværksforespørgsel, tjek netværket</string>
+	
+	<string name="string_register_error_account_exsist">Kontoen findes allerede!</string>
+	<string name="string_register_success">Registreret succes, er logget på.</string>
+	
+	<string name="dfu_file_size_text">%d byte</string>
+	<string name="dfu_progress_bar_percent">0%</string>
+	<string name="dfu_progress_bar_status">Tilslutter</string>
+	<string name="dfu_update_rom_success">Firmwaren blev opgraderet</string>
+	<string name="dfu_update_device_info">Opdaterer enhedsoplysninger&#8230;</string>
+	
+	<string name="dfu_update_rom_failure">Firmwareopgraderingen mislykkedes</string>
+	<string name="dfu_update_device_info2">Den gamle firmware gendannes om et par minutter&#8230;</string>
+	
+	<string name="httpError">Netværksfejl</string>
+	<string name="deviceError">Bind en enhed</string>
+
+    <!--  FOR BLUETOOTH BLE  -->
+    <string name="ble_not_supported"> Enheden understøtter ikke Bluetooth 4.0 LE</string>
+    
+    <!-- NOTIFICATION -->
+    <string name="app_notification">我是好人</string>
+    
+    <!-- ATTENTION -->
+    <string name="bind_device_attention">"Send til bindingsudstyr så tæt som muligt på mobiltelefonen, for eksempel i skærmens øverste højre hjørne eller nederste venstre hjørne"</string>
+    
+    <!-- TITLE -->
+	<string name="string_tv_pairs_title">Binding af ny enhed</string>
+	
+	<!-- BUTTON -->
+	<string name="string_btn_pairs_start">Start binding af ny enhed</string>
+    
+	<!-- DIALOG PAIRS -->
+	<string name="string_dialog_pairs_title_no_device">Enheden blev ikke fundet!</string>
+	<string name="string_dialog_pairs_title">Bind enheden?</string>
+	<string name="string_dialog_unpairs_title">Ikke bundet?</string>
+	<string name="string_dialog_pairs_message_header"> </string>
+	<string name="string_dialog_pairs_message_device_name">"  Enhedsnavn:"</string>
+	<string name="string_dialog_pairs_message_device_hw_version">"  Hardwareversion:"</string>
+	<string name="string_dialog_pairs_message_device_fw_version">"  Firmwareversion:"</string>
+	<string name="string_dialog_pairs_message_device_serial_number">"  Serienummer:"</string>
+	<string name="string_dialog_pairs_message_tailer"> </string>
+	
+	<!-- DIALOG CHECK ROM -->
+	<string name="string_dialog_check_newest_rom_version">Tjek ny version</string>
+	<string name="string_dialog_checking_newest_rom_version">Tjekker ny version&#8230;</string>
+	<string name="string_dialog_current_rom_is_newest">Dette er den nyeste version!</string>
+	<string name="string_dialog_title_upgrade_rom">Detektering af de nye firmware:</string>
+	<string name="string_dialog_message_upgrade_rom">Vil du opdatere med det samme?</string>
+	
+	<!-- DIALOG CONFIRM BUTTON -->
+	<string name="string_dialog_positive">Bekræft</string>
+	<string name="string_dialog_negative">Annuller</string>
+	
+	<!-- DIALOG CONFIGUTATE CONFIRM -->
+
+	<string name="string_step_unit">trin</string>
+	<string name="string_distance_unit">KM</string>
+	<string name="string_my_rank">Du gennemførte %1$d i dag!</string>
+	
+	<string name="string_last_sync_time">Sidste synkronisering:%1$s</string>
+	
+	<!-- DIALOG SETTING ALARM -->
+	<string name="string_alarm_dialog_hour_minute_divider">:</string>
+	<string name="string_alarm_dialog_sunday">SØN</string>
+	<string name="string_alarm_dialog_monday">MAN</string>
+	<string name="string_alarm_dialog_tuesday">TIR</string>
+	<string name="string_alarm_dialog_wednesday">ONS</string>
+	<string name="string_alarm_dialog_thursday">TOR</string>
+	<string name="string_alarm_dialog_friday">FRE</string>
+	<string name="string_alarm_dialog_saturday">LØR</string>
+	<string name="string_alarm_dialog_week0">SØ</string>
+	<string name="string_alarm_dialog_week1">MA</string>
+	<string name="string_alarm_dialog_week2">TI</string>
+	<string name="string_alarm_dialog_week3">ON</string>
+	<string name="string_alarm_dialog_week4">TO</string>
+	<string name="string_alarm_dialog_week5">FR</string>
+	<string name="string_alarm_dialog_week6">LØ</string>
+	<string name="string_alarm_dialog_circle_true">Gentag</string>
+	<string name="string_alarm_dialog_circle_false">Kun denne uge</string>
+	
+	<string name="string_disturb_mode_dialog_divider0">"kl. ~ "</string>
+	<string name="string_disturb_mode_dialog_divider1">kl.</string>
+
+	<!-- SETTING & MENU -->
+	<string name="string_global_setting">Globale indstillinger</string>
+		<!-- USER INFORMATION -->
+		<string name="string_user_central">Individuelt center</string>
+		<string name="string_user_account_info">Kontooplysninger</string>
+			<string name="string_first_name">Navn</string>
+			<string name="string_last_name">Efternavn</string>
+			<string name="string_nick_name">Kaldenavnet</string>
+			<string name="string_account_name">Konto</string>
+			<string name="string_get_my_password">Find adgangskoden</string>
+		<string name="string_user_info">Personlige data</string>
+			<string name="string_user_nickname">Kaldenavnet</string>
+			<string name="string_user_id">Bruger-ID</string>
+			<string name="string_user_height">Højde</string>
+			<string name="string_user_height_unit">CM</string>
+			<string name="string_user_weight">Vægt</string>
+			<string name="string_user_weight_unit">KG</string>
+			<string name="string_user_sexy">Køn</string>
+			<string name="string_user_birthday">Fødselsdag</string>
+			<string name="string_setting_user_image_notice">Klik på billedet for at redigere det!</string>
+		<string name="string_setting_targets">Målindstilling</string>
+			<string name="string_setting_targets_sport">"Træning:trin"</string>
+			<string name="string_setting_targets_sleep">"Søvn:timer"</string> 
+		<string name="string_device_info">Enhedsoplysninger</string>	
+			<string name="string_device_name">Enhedsnavnet:%1$s</string>
+			<string name="string_device_partnumber">Enhedens varenummer:</string>
+			<string name="string_device_hw_version">Hardwareversion:%1$s</string>
+			<string name="string_device_fw_version">Firmwareversion:%1$s</string>
+			<string name="string_device_check_fw_version">Søg efter opdateringer</string>
+			<string name="string_device_serial_number">"Serienummer    :%1$s"</string>
+		<string name="string_device_funciton_setting">Funktionsindstillinger</string>
+			<string name="string_function_agendar_reminder">Tidsplan</string>
+			<string name="string_function_agendar_reminder_descriptor">Tidsplanen</string>
+			<string name="string_function_agendar_reminder_title_default">Go home and have a look</string>
+			<string name="string_function_agendar_reminder_datetime_default">30.12.2020 Fredag 17.18</string>
+			<string name="string_function_sedentary_reminder">Påmindelse om inaktivitet</string>
+				<string name="string_function_sedentary_invert_time">"Hvis inaktivitetstiden når    %1$d timer %2$02d minutter"</string>
+			<string name="string_function_alarm_reminder">Vækkeuret</string>
+			<string name="string_function_alarm_reminder_descriptor">Alarmindstilling</string>
+			<string name="string_function_call_reminder">Opkaldspåmindelse</string>
+			<string name="string_function_message_reminder">SMS-advarsler</string>
+			<string name="string_function_stopwatch_enable">Aktivering af skift til stopur</string>
+			<string name="string_setting_stopwatch_notice">"Tip: når du har skiftet, skal du først gå til kategorien "sport" og trykke på knappen for synkronisering. Skift derefter til siden med antal trin på dit armbånd og trykke i 3 sekunder på displayet for at start eller stoppe stopursfunktionen."</string>
+		<string name="string_device_display_controller">Displaystyring</string>	
+			<string name="string_device_display_daylight_saving_time">Sommertid</string>
+			<string name="string_device_display_time_format_24h">24-timers ur</string>
+			<string name="string_device_display_date_and_week">Datovisning</string>
+			<string name="string_device_display_sport_distance">Visning af bevægelsesdistance</string>
+			<string name="string_device_display_total_caloric">Visning af varmeforbrug</string>
+			<string name="string_device_display_total_sleep_time">Visning af søvnstatus</string>
+		<string name="string_setting_no_disturb_mode">Vil ikke forstyrres-tilstand</string>
+			<string name="string_setting_no_disturb_time">Vil ikke forstyrres-periode</string>
+			<string name="string_setting_no_disturb_time_content0">kl. %1$02d ~ Nst. kl. %2$02d</string>
+			<string name="string_setting_no_disturb_time_content1">kl. %1$02d ~ kl. %2$02d</string>
+			<string name="string_setting_no_disturb_notice">"Tip: når du har aktiveret Vil ikke forstyrres-tilstanden, er vibration og øgning af lysstyrken ikke muligt!"</string>
+		<string name="string_setting_app_about">Om APP</string>
+			<string name="string_setting_app_info_version">Version</string>
+			<string name="string_setting_app_info_manufacturer">Producent</string>
+			<string name="string_setting_app_info_homepage">Hjemmeside</string>
+			<string name="string_setting_app_info_homepage_content">www.medion.com</string>
+			<string name="string_setting_user_agreement">Brugeraftale</string>
+			<string name="string_setting_check_app_new_version">Tjek for ny app-version</string>
+			<string name="string_setting_mobile_manufacturer">Mobilproducent: %1$s</string>
+			<string name="string_setting_mobile_model">Mobilmodel: %1$s</string>
+			<string name="string_setting_android_suitability_test">Android: Android %1$s</string>
+			<string name="string_setting_bluetooth_suitability_test">Bluetooth: %1$s</string>
+		
+		<string name="string_setting_device_bind_state">Enhed for den bundne tilstand:</string>	
+		<string name="string_btn_bind_new_device_with_user">Binding af ny enhed</string>	
+		<string name="string_btn_release_current_device_bond">Ikke bundet</string>	
+		<string name="string_btn_current_user_login_out">Forlad brugerkontoen</string>	
+	
+	<string name="string_list_is_loading">indlæser…</string>
+	
+	<string name="string_date_format">yyyy-MM-dd</string>
+	
+	<string name="string_time_hour">%1$d Time</string>
+	
+	<string name="string_time_hour_unit">Time</string>
+	<string name="string_time_minute_unit">Minut</string>
+	
+	<string name="string_user_id_content">%1$s</string>
+	<string name="string_user_nickname_content">%1$s</string>
+	<string name="string_user_height_content">%1$dCM</string>
+	<string name="string_user_weight_content">%1$dKG</string>
+	<string name="string_user_birthday_content">%1$s</string>
+		<string name="string_user_birthday_year">1980</string>
+		<string name="string_user_birthday_month">09</string>
+		<string name="string_user_birthday_day">28</string>
+		<string name="string_user_birthday_year_unit">År</string>
+		<string name="string_user_birthday_month_unit">Måned</string>
+		<string name="string_user_birthday_day_unit">Dag</string>
+	<string name="string_user_sexy_content">%1$s</string>
+		<string name="string_user_sexy_man">Mand,</string>
+		<string name="string_user_sexy_woman">Kvinder</string>
+	
+	<!-- Name:Robin  Time:20150921  Function:显示跑步的数量 -->
+	<string name="string_steps_content">%1$d foranstaltninger</string>
+	<string name="user_target_steps_text">foranstaltninger</string>
+	<string name="tv_setting_steps">10000 foranstaltninger</string>
+	
+	<string name="string_sleep_hours_content">%1$d timer</string>
+	<string name="user_target_sleep_text">timer</string>
+	<string name="tv_setting_sleep">8 timer</string>
+	
+	<!-- Name:Robin  Time:20150924  Function:  修改密码 -->
+	<string name="string_user_info_change_pwd">ændre kodeord</string>	
+	<string name="string_user_password_old">Indtast oprindelige password</string>
+	<string name="string_user_password_new">Gå ind i nye password</string>
+	<string name="string_user_password_new_re">Gentager, gå ind på nye password</string>
+	<string name="string_user_pwd_change_submit">Forelægge</string>
+	<string name="string_old_pwd_error">Den oprindelige kodeord er ikke korrekt.</string>
+	<string name="string_new_pwd_error">Det nye kodeord format, er ikke korrekt.</string>
+	<string name="string_doing_submit">Fremlægger et nyt password</string>
+	<string name="string_change_pwd_failure">At ændre kodeord mislykkedes, vær venlig at ændre</string>
+	<string name="string_setting_new_password">Om fastsættelse af nye password</string>
+	
+	<string name="string_loading_data">- data</string>
+	
+	<string name="string_login_code_error_send">Nye password sendes, vent venligst.</string>
+	<string name="get_test_code">Få</string>
+	<string name="again_get_test_code">At kræve password</string>	
+	
+	<!-- Name:Robin  Time:20150925  Function: 新增提示  -->
+	<string name="string_register_doing">Er registrering</string>
+	
+	 <!-- Name:Robin  Time:20150918  Function:注册时的密码提醒  -->
+    <string name="string_user_register_password_notice">Vælg et kodeord, med en længde mellem 6 og 16 tegn.registrering betyder, at de er enige om at overholde, medion</string>
+   
+    <!-- 退出提示 -->
+	<string name="exit_notice">Hurtig</string>
+	<string name="exit_content">Fast besluttet på at holde op?</string>
+	<string name="exit_select_back">Baggrund drift</string>
+	<string name="exit_select_exit">Exit -</string>
+	
+	<!-- 分享提示相关 -->
+	<string name="share_start">Begynde at dele&#8230;</string>
+	<string name="share_complete">Har fuldført!</string>
+	<string name="share_title_sport">Min motion</string>
+	<string name="share_title_sleep">Min sengetid</string>
+	<string name="share_title_rank">Andel af Foogeez</string>
+	<string name="share_dialog_title">Andel</string>
+	
+	<!-- APP 更新相关 -->
+	<string name="apk_is_downloading">Er downloading&#8230;</string>
+	<string name="apk_is_downloading_wait">Vær venlig at vente&#8230;</string>
+	<string name="apk_is_connected_internet">Er forbundet med regningen senere&#8230;</string>
+	
+	<!-- 头像上传提示 -->
+	<string name="avatar_update_success">Avatar uploade succes!</string>
+	
+	<!-- 注册后直接登录 -->
+	<string name="setting_usr_info_act_basic_title">Perfekt personoplysninger</string>
+	<string name="setting_usr_info_act_detail_title">Mine oplysninger</string>
+	<string name="setting_usr_info_detail_complete">Fuldstændig</string>
+	<string name="string_title_skip">Hop ned</string>
+	<string name="edittext_usr_info_basic">Indtast dit øgenavn.</string>
+	<string name="setting_usr_info_act_basic_next_btn">Næste skridt</string>
+	<string name="please_set_the_avatar">Læg avataren.</string>
+	<string name="please_set_the_nickname">Læg det øgenavn.</string>
+	<string name="please_set_the_height">Læg din højde.</string>
+	<string name="please_set_the_weight">Læg din vægt</string>
+	<string name="please_set_the_sex">Læg sex</string>
+	<string name="please_set_the_birthday">Læg din fødselsdag.</string>
+	
+	<!-- 下拉刷新 没有网络时的提示 -->
+	<string name="no_network_state_notice">Intet netværk, tak oprettet netværk forbindelse!</string>
+    
+	<!-- 无网络情况下，基本资料设置页面提示 -->
+	<string name="avatar_update_no_network_fail">Avatar uploade mislykkedes, tjek nettet!</string>
+	<string name="change_user_info_no_network_fail">Sig ikke, tjek nettet!</string>
+	
+</resources>

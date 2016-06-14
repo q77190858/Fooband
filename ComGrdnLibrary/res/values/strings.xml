@@ -1,0 +1,29 @@
+<resources>
+
+    <string name="app_name">ComGrdnLibrary</string>
+    <string name="dummy">dummy</string>
+
+    <string name="pull_to_refresh">Drop to synchronize data</string>  
+    <string name="release_to_refresh">Release to synchronize immediately</string>  
+    <string name="refreshing">Synchronizing…</string>  
+    <string name="not_updated_yet">Not synchronized</string>  
+    <string name="updated_at">The last synchronization in %1$s ago</string>  
+    <string name="updated_just_now">Just synchronization</string>  
+    <string name="time_error">There are problems of time</string>  
+    
+    <string name="string_hours">"hrs. "</string>
+    <string name="string_minutes">"min. "</string>
+    <string name="string_days">day</string>
+    <string name="string_months">month</string>
+    <string name="string_years">year</string>
+    
+	<string name="string_short_minutes">" min."</string>
+    <string name="string_steps">" steps "</string>
+    
+	<string name="string_sport_target">TAR: %1$d STEPS</string>
+    <string name="string_sleep_target">TAR: %1$d HOURS</string>
+    
+	<string name="string_dialog_yes">yes</string>
+    <string name="string_dialog_no">no</string>
+    
+</resources>

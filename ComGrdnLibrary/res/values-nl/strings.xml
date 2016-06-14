@@ -1,0 +1,14 @@
+<resources>
+    
+	<string name="string_hours">"Uur "</string>
+    <string name="string_minutes">"Minuut "</string>
+    <string name="string_days">Dag</string>
+    <string name="string_months">Maand</string>
+    <string name="string_years">Jaar</string>
+    
+	<string name="string_short_minutes">" Minuut "</string>
+    <string name="string_steps">" stappen "</string>
+    
+    <string name="string_sport_target">Oefening:%1$d stappen</string>
+    <string name="string_sleep_target">Slaap:%1$d Uur</string>    
+</resources>

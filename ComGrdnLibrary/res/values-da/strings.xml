@@ -1,0 +1,14 @@
+<resources>
+    
+	<string name="string_hours">"Time "</string>
+    <string name="string_minutes">"Minut "</string>
+    <string name="string_days">Dag</string>
+    <string name="string_months">Måned</string>
+    <string name="string_years">År</string>
+    
+	<string name="string_short_minutes">" Minut "</string>
+    <string name="string_steps">" trin "</string>
+    
+    <string name="string_sport_target">Træning:%1$d trin</string>
+    <string name="string_sleep_target">Søvn:%1$d timer</string>    
+</resources>

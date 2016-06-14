@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/id_ll_sedentary_content"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+    android:layout_marginLeft="16dp"
+	android:layout_marginRight="16dp"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res/com.foogeez.fooband" >
+
+	<include layout="@layout/included_setting_dialog_title" />  
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:orientation="horizontal" >
+        
+		<com.grdn.wheels.WheelVerticalView android:id="@+id/usr_info_birthday_year"
+               app:visibleItems="4"
+               app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+               app:selectionDividerHeight="1px"
+               app:selectionDividerActiveAlpha="100"
+               app:selectionDividerDimmedAlpha="255"
+               android:layout_height="wrap_content"
+               android:layout_width="wrap_content" />
+
+        <com.grdn.wheels.WheelVerticalView android:id="@+id/usr_info_birthday_month"
+			app:visibleItems="4"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerHeight="1px"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255" 
+			android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+
+
+        <com.grdn.wheels.WheelVerticalView android:id="@+id/usr_info_birthday_day"
+			app:visibleItems="4"
+            app:selectionDivider="@drawable/divider_dark_gradient_horizontal"
+            app:selectionDividerHeight="1px"
+            app:selectionDividerActiveAlpha="100"
+            app:selectionDividerDimmedAlpha="255" 
+			android:layout_width="50dp"
+            android:layout_height="wrap_content" />
+              
+	</LinearLayout>
+		
+</LinearLayout>

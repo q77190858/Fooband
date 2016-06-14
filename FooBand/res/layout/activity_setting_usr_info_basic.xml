@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/whitesmoke"
+    android:orientation="vertical" >
+
+    <include layout="@layout/included_setting_activity_title" />
+
+    <TextView
+        android:id="@+id/id_tv_user_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/menu_apart_title_margin_left"
+        android:layout_marginTop="@dimen/menu_apart_title_margin_top"
+        android:text="@string/string_usr_info_image_title"
+        android:textSize="@dimen/menu_apart_title_text_size"
+        android:textStyle="bold" />
+
+    <LinearLayout
+        android:id="@+id/id_ll_user_image_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="6dp"
+        android:background="@color/white"
+        android:orientation="vertical"
+        android:visibility="visible" >
+
+        <ImageView
+            android:id="@+id/ImageView08"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider_up"
+            android:contentDescription="@string/dummy" />
+
+        <ImageView
+            android:id="@+id/id_iv_my_avatar_basic"
+            android:layout_width="128dp"
+            android:layout_height="128dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="12dp"
+            android:layout_marginTop="12dp"
+            android:background="@drawable/image_button_bg"
+            android:clickable="true"
+            android:contentDescription="@string/dummy"
+            android:padding="4dp"
+            android:scaleType="fitXY"
+            android:src="@drawable/rank_unkown" />
+
+        <ImageView
+            android:id="@+id/ImageView09"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider"
+            android:contentDescription="@string/dummy" />
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/id_tv_setting_user_image_notice"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="16dp"
+        android:text="@string/string_setting_user_image_notice"
+        android:textColor="@color/gray"
+        android:textSize="12sp"
+        android:textStyle="italic" />
+
+    <ImageView
+        android:id="@+id/ImageView06"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_marginTop="20dp"
+        android:background="@drawable/divider_up"
+        android:contentDescription="@string/dummy" />
+
+    <RelativeLayout
+        android:id="@+id/id_rl_setting_usr_info_nickname"
+        android:layout_width="match_parent"
+        android:layout_height="@dimen/menu_apart_item_margin_height"
+        android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+        android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+        <TextView
+            android:id="@+id/id_tv_setting_usr_info_nickname"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerVertical="true"
+            android:text="@string/string_user_nickname" />
+
+        <TextView
+            android:id="@+id/id_tv_setting_usr_info_nickname_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <ImageView
+            android:id="@+id/image_modify4"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_marginRight="6dp"
+            android:contentDescription="@string/dummy"
+            android:src="@drawable/setting_modify" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/ImageView05"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@drawable/divider_up"
+        android:contentDescription="@string/dummy" />
+
+    <Button
+        android:id="@+id/id_btn_usr_info_basic_next"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+        android:layout_marginRight="@dimen/menu_apart_item_margin_right"
+        android:layout_marginTop="32dp"
+        android:text="@string/setting_usr_info_act_basic_next_btn" />
+    
+    <View
+        android:id="@+id/view_judge_avatar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:visibility="invisible"/>
+
+</LinearLayout>

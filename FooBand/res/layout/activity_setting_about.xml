@@ -1,0 +1,156 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+   
+	<include layout="@layout/included_setting_activity_title" />  
+
+	<LinearLayout
+	    android:layout_width="match_parent"
+	    android:layout_height="match_parent"
+	    android:background="@color/whitesmoke"
+	    android:orientation="vertical" >
+
+		<TextView
+		    android:id="@+id/id_tv_app_about_title"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/menu_apart_title_margin_left"
+		    android:layout_marginTop="@dimen/menu_apart_title_margin_top"
+		    android:text="@string/string_setting_app_about"
+		    android:textSize="@dimen/menu_apart_title_text_size"
+		    android:textStyle="bold" />
+
+		<LinearLayout
+		    android:id="@+id/id_ll_settting_app_about"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginTop="6dp"
+		    android:background="@color/white"
+		    android:orientation="vertical"
+		    android:visibility="visible" >
+
+		    <ImageView
+	            android:id="@+id/ImageView05"
+	            android:layout_width="match_parent"
+	            android:layout_height="1dp"
+	            android:background="@drawable/divider_up"
+	            android:contentDescription="@string/dummy" />
+		    
+		    <RelativeLayout
+		        android:id="@+id/id_rl_setting_app_info"
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/menu_apart_item_margin_height"
+		        android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+		        android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+		        <TextView
+		            android:id="@+id/id_tv_setting_app_version"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:text="@string/string_setting_app_info_version" />
+
+		        <TextView
+		            android:id="@+id/id_tv_setting_app_version_content"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerInParent="true"
+		            android:text="@string/string_setting_app_info_version" />
+		    </RelativeLayout>
+		    
+			<ImageView
+                android:id="@+id/ImageView03"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@drawable/divider"
+                android:contentDescription="@string/dummy" />
+
+		    <RelativeLayout
+		        android:id="@+id/id_rl_setting_app_belong"
+		        android:layout_width="match_parent"
+		        android:layout_height="@dimen/menu_apart_item_margin_height"
+		        android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+		        android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+		        <TextView
+		            android:id="@+id/id_tv_setting_app_belong"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerVertical="true"
+		            android:text="@string/string_setting_app_info_homepage" />
+
+		        <TextView
+		            android:id="@+id/id_tv_setting_app_belong_content"
+		            android:layout_width="wrap_content"
+		            android:layout_height="wrap_content"
+		            android:layout_centerInParent="true"
+		            android:text="@string/string_setting_app_info_homepage_content" />
+		    </RelativeLayout>
+
+		    <ImageView
+		        android:id="@+id/ImageView01"
+		        android:layout_width="match_parent"
+		        android:layout_height="1dp"
+		        android:background="@drawable/divider"
+		        android:contentDescription="@string/dummy" />
+
+		</LinearLayout>
+
+		<Button
+		    android:id="@+id/id_btn_check_app_new_version"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+		    android:layout_marginRight="@dimen/menu_apart_item_margin_right"
+		    android:layout_marginTop="4dp"
+		    android:text="@string/string_setting_check_app_new_version" />
+		
+		<Button
+		    android:id="@+id/id_btn_user_agreement"
+		    android:layout_width="match_parent"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+		    android:layout_marginRight="@dimen/menu_apart_item_margin_right"
+		    android:text="@string/string_setting_user_agreement" />
+		
+		<TextView
+		    android:id="@+id/id_tv_setting_manufacturer"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+		    android:layout_marginTop="16dp"
+		    android:text="@string/string_setting_mobile_manufacturer"
+		    android:textSize="12sp" />
+		
+		<TextView
+		    android:id="@+id/id_tv_setting_model"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+		    android:layout_marginTop="4dp"
+		    android:text="@string/string_setting_mobile_model"
+		    android:textSize="12sp" />
+		
+		<TextView
+		    android:id="@+id/id_tv_setting_android_suitability_test"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="16dp"
+		    android:layout_marginTop="4dp"
+		    android:text="@string/string_setting_android_suitability_test"
+		    android:textSize="12sp" />
+		
+		<TextView
+		    android:id="@+id/id_tv_setting_bluetooth_suitability_test"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_marginLeft="16dp"
+		    android:layout_marginTop="4dp"
+		    android:text="@string/string_setting_bluetooth_suitability_test"
+		    android:textSize="12sp" />
+
+	</LinearLayout>
+           
+</LinearLayout>

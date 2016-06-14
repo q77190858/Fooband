@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_rl_setting_title"
+    android:layout_width="match_parent"
+    android:layout_height="@dimen/menu_title_height"
+    android:background="@color/white" >
+
+    <ImageView
+        android:id="@+id/id_iv_setting_back"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentLeft="true"
+        android:layout_centerVertical="true"
+        android:layout_margin="4dp"
+        android:background="@drawable/image_button_bg"
+        android:contentDescription="@string/dummy"
+        android:onClick="OnTitleBackClick"
+        android:src="@drawable/back_2x" />
+
+    <TextView
+        android:id="@+id/id_tv_setting_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:text="@string/string_user_info"
+        android:textColor="@color/black"
+        android:textSize="@dimen/menu_title_text_size" />
+
+    <TextView
+        android:id="@+id/txt_title_skip"
+        android:layout_width="wrap_content"
+        android:layout_height="55dp"
+        android:layout_alignParentRight="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center"
+        android:paddingLeft="15dp"
+        android:paddingRight="10dp"
+        android:text="@string/string_title_skip"
+        android:textColor="@color/gray"
+        android:textSize="@dimen/menu_apart_title_margin_left"
+        android:visibility="gone" />
+
+    <ImageView
+        android:id="@+id/divider00"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_alignParentBottom="true"
+        android:background="@drawable/usr_divider_0"
+        android:contentDescription="@string/dummy" />
+
+</RelativeLayout>

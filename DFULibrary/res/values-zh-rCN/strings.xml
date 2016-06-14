@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="dfu_unknown_name">未知设备</string>
+    
+    <string name="dfu_action_abort">操作被取消</string>
+
+    <string name="dfu_status_initializing">初始化&#8230;</string>
+    <string name="dfu_status_connecting">正在连接&#8230;</string>
+    <string name="dfu_status_starting">开始升级&#8230;</string>
+    <string name="dfu_status_uploading">升级中&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">正在升级  %d/%d 部分&#8230;</string>
+    <string name="dfu_status_validating">校验中&#8230;</string>
+    <string name="dfu_status_disconnecting">正在断开连接&#8230;</string>
+    <string name="dfu_status_completed">完成</string>
+    <string name="dfu_status_aborted">忽略</string>
+    <string name="dfu_status_aborting">正在忽略&#8230;</string>
+    <string name="dfu_status_error">升级失败</string>
+    
+    <string name="dfu_status_connecting_msg">正在连接到  %s&#8230;</string>
+    <string name="dfu_status_starting_msg">初始化升级进程&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">传输数据到  %s&#8230;</string>
+    <string name="dfu_status_uploading_msg">传输应用到  %s&#8230;</string>
+    <string name="dfu_status_validating_msg">较严重&#8230;</string>
+    <string name="dfu_status_completed_msg">升级应用成功.</string>
+    <string name="dfu_status_aborted_msg">应用升级被取消.</string>
+    <string name="dfu_status_disconnecting_msg">正在从 %s 断开连接&#8230;</string>
+    <string name="dfu_status_error_msg">升级进程失败.</string>
+    
+	<string name="dfu_progress">%d%%</string>
+</resources>

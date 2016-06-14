@@ -1,0 +1,58 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <RelativeLayout
+        android:id="@+id/id_rl_rank_header"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@color/white" >
+
+        <TextView
+            android:id="@+id/id_tv_rank_descriptor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:text="@string/string_menu_rank"
+            android:textColor="@color/black"
+            android:textSize="18sp"
+            android:textStyle="bold" />
+
+        <ImageView
+            android:id="@+id/id_iv_btn_rank_sync"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_centerVertical="true"
+            android:layout_margin="4dp"
+            android:background="@drawable/image_button_bg"
+            android:contentDescription="@string/dummy"
+            android:src="@drawable/btn_sync" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/id_usr_divider_header"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:layout_below="@id/id_rl_rank_header"
+        android:contentDescription="@string/dummy"
+        android:src="@drawable/usr_divider_0" />
+
+    <com.grdn.pulltorefresh.library.PullToRefreshListView
+        android:id="@+id/id_lst_ranklist_content"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/id_usr_divider_header"
+        android:background="@color/whitesmoke" />
+
+    <ImageButton
+        android:id="@+id/img_btn_share_rank"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="65dp"
+        android:background="@drawable/share_white" />
+
+</RelativeLayout>

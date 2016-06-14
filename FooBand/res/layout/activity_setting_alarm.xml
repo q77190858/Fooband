@@ -1,0 +1,704 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/background3" 
+    android:orientation="vertical" >
+
+	<include layout="@layout/included_setting_activity_title" />
+
+	<ScrollView
+	    android:id="@+id/scrollView1"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+
+	    <LinearLayout
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:orientation="vertical" >
+
+	        <TextView
+	            android:id="@+id/id_tv_setting_alarm_descriptor"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="@dimen/menu_apart_title_margin_left"
+	            android:layout_marginTop="@dimen/menu_apart_title_margin_top"
+	            android:text="@string/string_function_alarm_reminder_descriptor"
+	            android:textColor="@color/gray"
+	            android:textSize="@dimen/menu_apart_title_text_size"
+	            android:textStyle="bold" />
+
+	        <LinearLayout
+	            android:layout_width="match_parent"
+	            android:layout_height="wrap_content"
+	            android:layout_marginTop="6dp"
+	            android:background="@color/white"
+	            android:orientation="vertical" >
+
+	            <ImageView
+	                android:id="@+id/ImageView06"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_alarm0"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginBottom="4dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:orientation="vertical" >
+
+	                    <RelativeLayout
+	                        android:id="@+id/RelativeLayout03"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:orientation="horizontal" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm0_time"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentLeft="true"
+	                            android:layout_alignParentTop="true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="36sp" />
+
+	                        <com.grdn.widgets.SwitchButton
+	                            android:id="@+id/id_sb_alarm0_active_flag"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentRight="true"
+	                            android:layout_centerVertical="true"
+	                            android:layout_gravity="right|center_vertical"
+	                            android:padding="6dp" />
+	                    </RelativeLayout>
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm0_week_cyclic"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="@string/string_alarm_dialog_circle_true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <LinearLayout 
+	                            android:layout_width="match_parent"
+	                            android:layout_height="wrap_content"
+	                            android:gravity="right">
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week0"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"		                           
+		                            android:text="@string/string_alarm_dialog_week0"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week1"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week1"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week2"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week2"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week3"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week3"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week4"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week4"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week5"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week5"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm0_week6"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:padding="2dp"
+		                            android:text="@string/string_alarm_dialog_week6"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	                        </LinearLayout>
+	                    </LinearLayout>
+	                </LinearLayout>
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView04"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_alarm1"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginBottom="4dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:orientation="vertical" >
+
+	                    <RelativeLayout
+	                        android:id="@+id/RelativeLayout1"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:orientation="horizontal" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm1_time"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentLeft="true"
+	                            android:layout_alignParentTop="true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="36sp" />
+
+	                        <com.grdn.widgets.SwitchButton
+	                            android:id="@+id/id_sb_alarm1_active_flag"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentRight="true"
+	                            android:layout_centerVertical="true"
+	                            android:layout_gravity="right|center_vertical"
+	                            android:padding="6dp" />
+	                    </RelativeLayout>
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm1_week_cyclic"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="@string/string_alarm_dialog_circle_true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+	                        
+  						    <LinearLayout 
+	                            android:layout_width="match_parent"
+	                            android:layout_height="wrap_content"
+	                            android:gravity="right">
+		                        
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week0"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content" 
+		                            android:text="@string/string_alarm_dialog_week0"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week1"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week1"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week2"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week2"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week3"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week3"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week4"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week4"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week5"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week5"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm1_week6"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:padding="2dp"
+		                            android:text="@string/string_alarm_dialog_week6"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		                        </LinearLayout>
+	                    </LinearLayout>
+	                </LinearLayout>
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView01"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_alarm2"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginBottom="4dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:orientation="vertical" >
+
+	                    <RelativeLayout
+	                        android:id="@+id/id_rl_setting_alarm2_alarm2"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:orientation="horizontal" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm2_time"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentLeft="true"
+	                            android:layout_alignParentTop="true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="36sp" />
+
+	                        <com.grdn.widgets.SwitchButton
+	                            android:id="@+id/id_sb_alarm2_active_flag"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentRight="true"
+	                            android:layout_centerVertical="true"
+	                            android:layout_gravity="right|center_vertical"
+	                            android:padding="6dp" />
+	                    </RelativeLayout>
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm2_week_cyclic"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="@string/string_alarm_dialog_circle_true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+	                        
+	                       <LinearLayout 
+	                            android:layout_width="match_parent"
+	                            android:layout_height="wrap_content"
+	                            android:gravity="right">
+
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week0"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:text="@string/string_alarm_dialog_week0"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week1"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week1"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week2"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week2"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week3"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week3"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week4"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week4"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week5"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week5"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm2_week6"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:padding="2dp"
+		                            android:text="@string/string_alarm_dialog_week6"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		                    </LinearLayout>
+	                    </LinearLayout>
+	                </LinearLayout>
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView03"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_alarm3"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginBottom="4dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:orientation="vertical" >
+
+	                    <RelativeLayout
+	                        android:id="@+id/id_rl_setting_sedentary_remainder"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:orientation="horizontal" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_time"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentLeft="true"
+	                            android:layout_alignParentTop="true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="36sp" />
+
+	                        <com.grdn.widgets.SwitchButton
+	                            android:id="@+id/id_sb_alarm3_active_flag"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentRight="true"
+	                            android:layout_centerVertical="true"
+	                            android:layout_gravity="right|center_vertical"
+	                            android:padding="6dp" />
+	                    </RelativeLayout>
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week_cyclic"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="@string/string_alarm_dialog_circle_true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+	                        
+	                       <LinearLayout 
+	                            android:layout_width="match_parent"
+	                            android:layout_height="wrap_content"
+	                            android:gravity="right">
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week0"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="@string/string_alarm_dialog_week0"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week1"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="6dp"
+	                            android:text="@string/string_alarm_dialog_week1"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week2"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="6dp"
+	                            android:text="@string/string_alarm_dialog_week2"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week3"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="6dp"
+	                            android:text="@string/string_alarm_dialog_week3"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week4"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="6dp"
+	                            android:text="@string/string_alarm_dialog_week4"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week5"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="6dp"
+	                            android:text="@string/string_alarm_dialog_week5"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm3_week6"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_marginLeft="6dp"
+	                            android:padding="2dp"
+	                            android:text="@string/string_alarm_dialog_week6"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+	                        </LinearLayout>
+	                    </LinearLayout>
+	                </LinearLayout>
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView02"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+
+	            <RelativeLayout
+	                android:id="@+id/id_rl_setting_alarm4"
+	                android:layout_width="match_parent"
+	                android:layout_height="72dp"
+	                android:layout_marginBottom="4dp"
+	                android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+	                android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+	                <LinearLayout
+	                    android:layout_width="match_parent"
+	                    android:layout_height="wrap_content"
+	                    android:layout_alignParentLeft="true"
+	                    android:layout_centerVertical="true"
+	                    android:orientation="vertical" >
+
+	                    <RelativeLayout
+	                        android:id="@+id/RelativeLayout05"
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content"
+	                        android:orientation="horizontal" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm4_time"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentLeft="true"
+	                            android:layout_alignParentTop="true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="36sp" />
+
+	                        <com.grdn.widgets.SwitchButton
+	                            android:id="@+id/id_sb_alarm4_active_flag"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:layout_alignParentRight="true"
+	                            android:layout_centerVertical="true"
+	                            android:layout_gravity="right|center_vertical"
+	                            android:padding="6dp" />
+	                    </RelativeLayout>
+
+	                    <LinearLayout
+	                        android:layout_width="match_parent"
+	                        android:layout_height="wrap_content" >
+
+	                        <TextView
+	                            android:id="@+id/id_tv_alarm4_week_cyclic"
+	                            android:layout_width="wrap_content"
+	                            android:layout_height="wrap_content"
+	                            android:text="@string/string_alarm_dialog_circle_true"
+	                            android:textColor="@color/gray"
+	                            android:textSize="16sp" />
+
+	                       <LinearLayout 
+	                            android:layout_width="match_parent"
+	                            android:layout_height="wrap_content"
+	                            android:gravity="right">
+	                        
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week0"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="32dp"
+		                            android:text="@string/string_alarm_dialog_week0"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week1"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week1"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week2"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week2"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week3"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week3"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week4"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week4"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week5"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:text="@string/string_alarm_dialog_week5"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+	
+		                        <TextView
+		                            android:id="@+id/id_tv_alarm4_week6"
+		                            android:layout_width="wrap_content"
+		                            android:layout_height="wrap_content"
+		                            android:layout_marginLeft="6dp"
+		                            android:padding="2dp"
+		                            android:text="@string/string_alarm_dialog_week6"
+		                            android:textColor="@color/gray"
+		                            android:textSize="16sp" />
+		                    </LinearLayout>
+	                    </LinearLayout>
+	                </LinearLayout>
+	            </RelativeLayout>
+
+	            <ImageView
+	                android:id="@+id/ImageView05"
+	                android:layout_width="match_parent"
+	                android:layout_height="1dp"
+	                android:background="@drawable/divider"
+	                android:contentDescription="@string/dummy" />
+	        </LinearLayout>
+
+	    </LinearLayout>
+	</ScrollView>
+
+</LinearLayout>

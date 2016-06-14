@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_ll_progress_status"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content" >
+
+	    <ProgressBar
+	        android:id="@+id/id_pbr_progress"
+	        style="?android:attr/progressBarStyleHorizontal"
+	        android:layout_width="match_parent"
+	        android:layout_height="wrap_content"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginRight="16dp"
+	        android:layout_marginTop="32dp" />
+
+	    <LinearLayout
+	        android:id="@+id/id_ll_progress_status_percent"
+	        android:layout_width="wrap_content"
+	        android:layout_height="wrap_content"
+	        android:layout_below="@id/id_pbr_progress"
+	        android:layout_centerHorizontal="true"
+	        android:layout_marginBottom="32dp"
+	        android:layout_marginTop="8dp" >
+
+	        <TextView
+	            android:id="@+id/id_tv_progress_percent"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="16dp"
+	            android:text="@string/dfu_progress_bar_percent" />
+
+	        <TextView
+	            android:id="@+id/id_tv_update_status"
+	            android:layout_width="wrap_content"
+	            android:layout_height="wrap_content"
+	            android:layout_marginLeft="16dp"
+	            android:text="@string/dfu_progress_bar_status" />
+
+	    </LinearLayout>
+
+</RelativeLayout>

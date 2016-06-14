@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/id_ll_sedentary_content"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:layout_marginLeft="16dp"
+	android:layout_marginRight="16dp"
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+		<include
+		    android:layout_width="wrap_content"
+		    android:layout_height="match_parent"
+		    layout="@layout/included_setting_dialog_title" />
+
+		<TextView
+		    android:id="@+id/textView1"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_gravity="left"
+		    android:layout_marginLeft="18dp"
+		    android:layout_marginTop="16dp"
+		    android:text="@string/string_input_nickname_please" />
+		
+	    <EditText
+	        android:id="@+id/id_et_usr_info_nickname"
+	        android:layout_width="match_parent"
+	        android:layout_height="match_parent"
+	        android:layout_marginLeft="16dp"
+	        android:layout_marginRight="16dp"
+	        android:clickable="true"
+	        android:inputType="text" />
+	 	
+	    <View 
+	        android:layout_width="match_parent"
+	        android:layout_height="16dp"/>
+
+</LinearLayout>

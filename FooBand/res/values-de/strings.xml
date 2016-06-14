@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fooband2</string>
+    <string name="app_title">Fooband2</string>
+    
+    <string name="app_version">Version 2.01D</string>
+    <string name="app_thanks_alot">Vielen Dank, dass Sie das intelligente Fitnessband von Fooband2 verwenden!</string>
+    
+	<string name="error_android_version_too_low">Android-Version ist zu alt. Anwendung wird geschlossen.\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020!</string>
+    <string name="error_bluetooth_version_too_low">Bluetooth unterstützt BLE nicht. Anwendung wird geschlossen.\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    
+    <string name="string_user_account">Geben Sie Ihre E-Mail-Adresse ein.</string>
+    <string name="string_user_password">Geben Sie das 6- bis 16-stellige Kennwort ein</string>
+  
+    <string name="string_user_login_login">Anmelden</string>
+    <string name="string_user_login_register">Registrieren</string>
+    
+	<string name="string_user_register_login">Anmelden</string>
+    <string name="string_user_register_register">Registrieren</string>
+    
+    <string name="exit_app">Klicken Sie erneut, um App verlassen</string>
+    
+     <!-- password_recoverd start -->
+    <string name="string_user_password_recoverd">Passwort vergessen?</string>
+    <string name="string_user_password_complete">Abrufen passwort</string>
+    <string name="string_user_passwrod_recovered_back">Zurück</string>
+    <string name="string_user_passwrod_code_doing">In Bearbeitung, bitte warten</string>
+    <string name="string_user_passwrod_code_sucess">Gesendeter Code erfolgreich überprüft.</string>
+    <string name="string_user_passwrod_code_failure">Fehler, versuchen Sie es erneut!</string>
+    <string name="string_login_code_error">Fehler, versuchen Sie es erneut!</string>
+    <string name="string_user_password_code_error">Verifizieren fehlgeschlagen</string>
+    <string name="string_user_password_recovered_success">Kennwort erfolgreich wiederhergestellt, überprüfen Sie bitte Ihr neues Passwort!</string>
+    <string name="string_user_password_recoverd_hint">Bitte Verifizierungscode eingeben</string>
+    <string name="string_user_password_recover_content">Das System generiert ein neues Passwort und sendet es an Deine E-Mail-Adresse. Medion respektiert Ihre Privatsphäre. Das Passwort wird verschlüsselt, niemand anderes kann es sehen.</string>
+   <!-- password_recoverd end -->
+    
+	<string name="string_user_login_notice">Mit der Anmeldung stimmen Sie den Regeln von Medion zu</string>
+    <string name="string_user_register_notice">Mit der Registrierung stimmen Sie den Regeln von Medion zu</string>
+    <string name="string_user_notice_content">NUTZUNGSVEREINBARUNG UND DATENSCHUTZRICHTLINIE</string>
+    
+	<string name="string_find_new_app_version">Auf App-Aktualisierung überprüfen</string>
+	<string name="string_find_new_app_version_none">Die aktuelle Version der App ist die neueste.</string>
+    <string name="string_find_new_app_version_content">Neuere App-Version %1$s gefunden; klicken Sie zum Installieren.</string>
+    
+    <string name="string_notification_read_authorize_title">Bitte autorisieren</string>
+	<string name="string_notification_read_authorize_message">Diese Anwendung erfordert einen Zugriff auf die Benachrichtigungszeile.</string>
+    
+    <string name="dummy"> </string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="string_notice_push_to_refresh">Zum Aktualisieren des Datums hier herunterziehen.</string>
+    
+    <string name="string_menu_sport">Sport</string>
+    <string name="string_menu_sleep">Schlaf</string>
+    <string name="string_menu_rank">Rangliste</string>
+    <string name="string_menu_friends">Freunde</string>
+    <string name="string_menu_setting">Einstellung</string>
+    
+    <string name="string_usr_info_image_title">Benutzerbild</string>
+    
+	<string name="string_total_calorics">%1$d Kcal</string>
+    <string name="string_distance">%1$.2f Kilometer</string>
+	<string name="string_active_calorics">%1$d Kcal</string>
+	<string name="string_active_time">%1$s%2$d Minuten</string>
+	
+	<string name="string_light_sleep_time">" MV.SLP: %1$s%2$d Min."</string>
+	<string name="string_deep_sleep_time">" DP.SLP: %1$s%2$d Min."</string>
+	<string name="string_awake_count">" wach: %1$d Mal"</string>
+	<string name="string_awake_time">" wach: %1$s%2$d Minuten"</string>
+	
+	<string name="string_title_sport_descript">Sport</string>
+	<string name="string_title_sport_datetime">Heute</string>
+	<string name="string_title_sleep_descript">Effektiver Schlaf</string>
+	<string name="string_title_sleep_datetime">Letzte Nacht</string>
+	
+	<string name="string_input_nickname_please">Geben Sie einen Kurznamen ein:</string>
+	
+	<string name="string_please_register_first">Melden Sie sich an.</string>
+	<string name="string_refresh_success">Synchronisierung abgeschlossen.</string>
+	<string name="string_refresh_failure_0">Synchronisierung fehlgeschlagen. Prüfen Sie, ob das Gerät reagiert.</string>
+	<string name="string_refresh_failure_1">Bluetooth-Synchronisierung fehlgeschlagen. Versuchen Sie es erneut.</string>
+	<string name="string_refresh_failure_2">Bluetooth-Synchronisierung fehlgeschlagen. Versuchen Sie es erneut.</string>
+	<string name="string_config_success">Einstellung abgeschlossen.</string>
+	<string name="string_config_failure">Bitte warten Sie einen Moment.</string>
+	
+	<string name="string_login_doing">Anmeldung läuft&#8230;Versuchen Sie es später noch einmal.</string>
+	<string name="string_login_success">Anmeldung abgeschlossen.</string>
+	<string name="string_login_error">Falsches Konto oder Kennwort.</string>
+	<string name="string_login_account_error">Falsches Konto eingegeben.</string>
+	<string name="string_login_password_error">Falsches Kennwort eingegeben.</string>
+	<string name="string_login_re_password_error">Falsches Kennwort eingegeben. Eingabe wiederholen.</string>
+	<string name="string_newwork_error"> Überprüfen Sie das Netzwerk.</string>
+	<string name="string_network_timeout">Zeitüberschreitung bei der Netzwerkanfrage. Überprüfen Sie das Netzwerk.</string>
+	
+	<string name="string_register_error_account_exsist">Das Konto ist bereits vorhanden.</string>
+	<string name="string_register_success">Als erfolg ist angemeldet.</string>
+	
+	<string name="dfu_file_size_text">%d Byte</string>
+	<string name="dfu_progress_bar_percent">0%</string>
+	<string name="dfu_progress_bar_status">Verbindung wird hergestellt</string>
+	<string name="dfu_update_rom_success">Firmware-Aktualisierung abgeschlossen</string>
+	<string name="dfu_update_device_info">Geräteinformationen werden aktualisiert &#8230;</string>
+	
+	<string name="dfu_update_rom_failure">Firmware-Aktualisierung fehlgeschlagen</string>
+	<string name="dfu_update_device_info2">Die ältere Firmware wird innerhalb einer Minute wiederhergestellt&#8230;</string>
+	
+	<string name="httpError">Netzwerkfehler</string>
+	<string name="deviceError">Binden Sie ein Gerät ein</string>
+
+    <!--  FOR BLUETOOTH BLE  -->
+    <string name="ble_not_supported"> Das Gerät unterstützt Bluetooth 4.0 LE nicht</string>
+    
+    <!-- NOTIFICATION -->
+    <string name="app_notification">我是好人</string>
+    
+    <!-- ATTENTION -->
+    <string name="bind_device_attention">"Bitte positionieren Sie das einzubindende Gerät in unmittelbarer Nähe des Mobiltelefons, beispielsweise oben rechts oder unten links am Display."</string>
+    
+    <!-- TITLE -->
+	<string name="string_tv_pairs_title">Einbinden eines neuen Geräts</string>
+	
+	<!-- BUTTON -->
+	<string name="string_btn_pairs_start">Einbinden des neuen Geräts starten</string>
+    
+	<!-- DIALOG PAIRS -->
+	<string name="string_dialog_pairs_title_no_device">Gerät nicht gefunden.</string>
+	<string name="string_dialog_pairs_title">Einbinden eines neuen Geräts?</string>
+	<string name="string_dialog_unpairs_title">Trennen?</string>
+	<string name="string_dialog_pairs_message_header"> </string>
+	<string name="string_dialog_pairs_message_device_name">"  Gerätename:"</string>
+	<string name="string_dialog_pairs_message_device_hw_version">"  Hardwareversion："</string>
+	<string name="string_dialog_pairs_message_device_fw_version">"  Firmwareversion："</string>
+	<string name="string_dialog_pairs_message_device_serial_number">"  Seriennummer："</string>
+	<string name="string_dialog_pairs_message_tailer"> </string>
+	
+	<!-- DIALOG CHECK ROM -->
+	<string name="string_dialog_check_newest_rom_version">Auf neue Version überprüfen</string>
+	<string name="string_dialog_checking_newest_rom_version">Prüfung auf neue Version läuft&#8230;</string>
+	<string name="string_dialog_current_rom_is_newest">Dies ist die neueste Version.</string>
+	<string name="string_dialog_title_upgrade_rom">So finden Sie die neue Firmware:</string>
+	<string name="string_dialog_message_upgrade_rom">Sofort aktualisieren?</string>
+	
+	<!-- DIALOG CONFIRM BUTTON -->
+	<string name="string_dialog_positive">Bestätigen</string>
+	<string name="string_dialog_negative">Abbrechen</string>
+	
+	<!-- DIALOG CONFIGUTATE CONFIRM -->
+
+	<string name="string_step_unit">Schritte</string>
+	<string name="string_distance_unit">KM</string>
+	<string name="string_my_rank">Sie haben %1$d heute beendet!</string>
+	
+	<string name="string_last_sync_time">Letzte Synchronisierung:%1$s</string>
+	
+	<!-- DIALOG SETTING ALARM -->
+	<string name="string_alarm_dialog_hour_minute_divider">:</string>
+	<string name="string_alarm_dialog_sunday">SO</string>
+	<string name="string_alarm_dialog_monday">MO</string>
+	<string name="string_alarm_dialog_tuesday">DI</string>
+	<string name="string_alarm_dialog_wednesday">MI</string>
+	<string name="string_alarm_dialog_thursday">DO</string>
+	<string name="string_alarm_dialog_friday">FR</string>
+	<string name="string_alarm_dialog_saturday">SA</string>
+	<string name="string_alarm_dialog_week0">SO</string>
+	<string name="string_alarm_dialog_week1">MO</string>
+	<string name="string_alarm_dialog_week2">DI</string>
+	<string name="string_alarm_dialog_week3">MI</string>
+	<string name="string_alarm_dialog_week4">DO</string>
+	<string name="string_alarm_dialog_week5">FR</string>
+	<string name="string_alarm_dialog_week6">SA</string>
+	<string name="string_alarm_dialog_circle_true">Wiederholen</string>
+	<string name="string_alarm_dialog_circle_false">Nur diese Woche</string>
+	
+	<string name="string_disturb_mode_dialog_divider0">"Uhr ~ "</string>
+	<string name="string_disturb_mode_dialog_divider1">Uhr</string>
+
+	<!-- SETTING & MENU -->
+	<string name="string_global_setting">Globale Einstellungen</string>
+		<!-- USER INFORMATION -->
+		<string name="string_user_central">Individuelles Zentrum</string>
+		<string name="string_user_account_info">Kontoinformationen</string>
+			<string name="string_first_name">Name</string>
+			<string name="string_last_name">Vorname</string>
+			<string name="string_nick_name">Kurzname</string>
+			<string name="string_account_name">Konto</string>
+			<string name="string_get_my_password">So finden Sie das Kennwort</string>
+		<string name="string_user_info">Persönliche Daten</string>
+			<string name="string_user_nickname">Kurzname</string>
+			<string name="string_user_id">Benutzer-ID</string>
+			<string name="string_user_height">Größe</string>
+			<string name="string_user_height_unit">CM</string>
+			<string name="string_user_weight">Gewicht</string>
+			<string name="string_user_weight_unit">KG</string>
+			<string name="string_user_sexy">Geschlecht</string>
+			<string name="string_user_birthday">Geburtstag</string>
+			<string name="string_setting_user_image_notice">Klicken Sie zum Bearbeiten auf das Bild.</string>
+		<string name="string_setting_targets">Zieleinstellung</string>
+			<string name="string_setting_targets_sport">"Übung:Schritte"</string>
+			<string name="string_setting_targets_sleep">"Schlaf:Stunden"</string>
+		<string name="string_device_info">Geräteinformationen</string>	
+			<string name="string_device_name">Gerätename:%1$s</string>
+			<string name="string_device_partnumber">Geräteteilenummer:</string>
+			<string name="string_device_hw_version">Hardwareversion:%1$s</string>
+			<string name="string_device_fw_version">Firmwareversion:%1$s</string>
+			<string name="string_device_check_fw_version">Aktualisieren</string>
+			<string name="string_device_serial_number">"Seriennummer    :%1$s"</string>
+		<string name="string_device_funciton_setting">Funktionseinstellungen</string>
+			<string name="string_function_agendar_reminder">Zeitplan</string>
+			<string name="string_function_agendar_reminder_descriptor">Der Zeitplan</string>
+			<string name="string_function_agendar_reminder_title_default">Go home and have a look</string>
+			<string name="string_function_agendar_reminder_datetime_default">2020–12–30 Freitag 17:18</string>
+			<string name="string_function_sedentary_reminder">Erinnerung sitzende Tätigkeit</string>
+				<string name="string_function_sedentary_invert_time">"Wenn die passiv verbrachte Zeit    %1$d Stunden %2$02d Minuten erreicht."</string>
+			<string name="string_function_alarm_reminder">Wecker</string>
+			<string name="string_function_alarm_reminder_descriptor">Wecker-Einstellung</string>
+			<string name="string_function_call_reminder">Anruferinnerung</string>
+			<string name="string_function_message_reminder">SMS-Alarmsignal</string>
+			<string name="string_function_stopwatch_enable">Umschaltung zur Stoppuhr aktivieren</string>
+			<string name="string_setting_stopwatch_notice">"Tip: nach den Einschalten wechseln Sie zur Kategorie "Sport" und führen Sie die Synchronisation aus. Anschließend für 3 Sekunden am Armband auf Anzeige 'Symbol Schrittzahl " drücken, um  Stoppuhr-Modus ein- und ausschalten."</string>
+		<string name="string_device_display_controller">Anzeigenkontrolle</string>	
+			<string name="string_device_display_daylight_saving_time">Sommerzeit</string>
+			<string name="string_device_display_time_format_24h">24-Stunden-Uhr</string>
+			<string name="string_device_display_date_and_week">Datumsanzeige</string>
+			<string name="string_device_display_sport_distance">Anzeige Zurückgelegte Strecke</string>
+			<string name="string_device_display_total_caloric">Anzeige Kalorienverbrauch</string>
+			<string name="string_device_display_total_sleep_time">Anzeige Schlafstatus</string>
+		<string name="string_setting_no_disturb_mode">Modus „Bitte nicht stören“</string>
+			<string name="string_setting_no_disturb_time">Zeitraum von:</string>
+			<string name="string_setting_no_disturb_time_content0">%1$02d Uhr bis %2$02d</string>
+			<string name="string_setting_no_disturb_time_content1">%1$02d Uhr bis %2$02d Uhr</string>
+			<string name="string_setting_no_disturb_notice">"Tipp: Wird der Modus „Bitte nicht stören“ aktiviert, wird die Vibration und  das Steigern der Bildschirmhelligkeit am Armband unterbunden."</string>
+		<string name="string_setting_app_about">Infos zur App</string>
+			<string name="string_setting_app_info_version">Version</string>
+			<string name="string_setting_app_info_manufacturer">Hersteller</string>
+			<string name="string_setting_app_info_homepage">Homepage</string>
+			<string name="string_setting_app_info_homepage_content">www.medion.com</string>
+			<string name="string_setting_user_agreement">Nutzungsvereinbarung</string>
+			<string name="string_setting_check_app_new_version">Auf neue App-Version überprüfen</string>
+			<string name="string_setting_mobile_manufacturer">Hersteller Mobiltelefon: %1$s</string>
+			<string name="string_setting_mobile_model">Modell Mobiltelefon: %1$s</string>
+			<string name="string_setting_android_suitability_test">Android: Android %1$s</string>
+			<string name="string_setting_bluetooth_suitability_test">Bluetooth: %1$s</string>
+		
+		<string name="string_setting_device_bind_state">Gerät für eingebundenen Status:</string>	
+		<string name="string_btn_bind_new_device_with_user">Einbinden eines neuen Geräts</string>	
+		<string name="string_btn_release_current_device_bond">Trennen</string>	
+		<string name="string_btn_current_user_login_out">Benutzerkonto beenden</string>	
+	
+	<string name="string_list_is_loading">Ladevorgang läuft …</string>
+	
+	<string name="string_date_format">yyyy-MM-dd</string>	
+	
+	<string name="string_time_hour">%1$d Stunde. </string>
+	
+	<string name="string_time_hour_unit">Stunde</string>
+	<string name="string_time_minute_unit">Minute</string>
+	
+	<string name="string_user_id_content">%1$s</string>
+	<string name="string_user_nickname_content">%1$s</string>
+	<string name="string_user_height_content">%1$dCM</string>
+	<string name="string_user_weight_content">%1$dKG</string>
+	<string name="string_user_birthday_content">%1$s</string>
+		<string name="string_user_birthday_year">1980</string>
+		<string name="string_user_birthday_month">09</string>
+		<string name="string_user_birthday_day">28</string>
+		<string name="string_user_birthday_year_unit">Jahr</string>
+		<string name="string_user_birthday_month_unit">Monat</string>
+		<string name="string_user_birthday_day_unit">Tag</string>
+	<string name="string_user_sexy_content">%1$s</string>
+		<string name="string_user_sexy_man">Mann</string>
+		<string name="string_user_sexy_woman">Frauen</string>
+	
+	<!-- Name:Robin  Time:20150921  Function:显示跑步的数量 -->
+	<string name="string_steps_content">%1$d Schritte</string>
+	<string name="user_target_steps_text">Schritte</string>
+	<string name="tv_setting_steps">10000 Schritte</string>
+	
+	<string name="string_sleep_hours_content">%1$d stunden</string>
+	<string name="user_target_sleep_text">stunden</string>
+	<string name="tv_setting_sleep">8 stunden</string>
+		
+	<!-- Name:Robin  Time:20150924  Function:  修改密码 -->
+	<string name="string_user_info_change_pwd">Passwort ändern</string>	
+	<string name="string_user_password_old">Bitte geben sie die original - passwort</string>
+	<string name="string_user_password_new">Bitte geben sie das passwort neu</string>
+	<string name="string_user_password_new_re">Ein neues kennwort wiederholen</string>
+	<string name="string_user_pwd_change_submit">Vorzulegen.</string>
+	<string name="string_old_pwd_error">Die original - passwort ist nicht richtig</string>
+	<string name="string_new_pwd_error">Das neue passwort - format ist nicht richtig</string>
+	<string name="string_doing_submit">Ist sie ein neues passwort</string>
+	<string name="string_change_pwd_failure">ändern sie das passwort nicht erneut ändern, bitte</string>
+	<string name="string_change_pwd_success">Passwort ändern erfolg</string>
+	<string name="string_setting_new_password">Die neue passwort</string>
+	
+	<string name="string_loading_data">Laden der daten.</string>
+	
+	<string name="string_login_code_error_send">Neues passwort gesendet wird, bitte warten&#8230;</string>
+	<string name="get_test_code">Bekommen</string>
+	<string name="again_get_test_code">Das ist das passwort</string>
+	
+	<!-- Name:Robin  Time:20150925  Function: 新增提示  -->
+	<string name="string_register_doing">Die anmeldung</string>
+	
+	<!-- Name:Robin  Time:20150918  Function:注册时的密码提醒  -->
+    <string name="string_user_register_password_notice">Bitte wählen sie ein passwort mit einer länge zwischen 6 und 16 zeichen.registrierung bedeutet, dass sie zustimmen, medion</string>
+    
+    <!-- 退出提示 -->
+	<string name="exit_notice">Prompt</string>
+	<string name="exit_content">Entschlossen aufzuhören?</string>
+	<string name="exit_select_back">Hintergrund der operation</string>
+	<string name="exit_select_exit">Ausfahrt</string>
+	
+	<!-- 分享提示相关 -->
+	<string name="share_start">Zunächst teilen&#8230;</string>
+	<string name="share_complete">Anteil vollständig!</string>
+	<string name="share_title_sport">Meine wahrnehmung</string>
+	<string name="share_title_sleep">Schlaf mal</string>
+	<string name="share_title_rank">Anteil von Foogeez</string>
+	<string name="share_dialog_title">Anteil</string>
+	
+	<!-- APP 更新相关 -->
+	<string name="apk_is_downloading">Geladen wird.</string>
+	<string name="apk_is_downloading_wait">Bitte warten&#8230;</string>
+	<string name="apk_is_connected_internet">Damit verbunden ist die rechnung später&#8230;</string>
+	
+	<!-- 头像上传提示 -->
+	<string name="avatar_update_success">Avatar - upload - erfolg!</string>
+	
+	<!-- 注册后直接登录 -->
+	<string name="setting_usr_info_act_basic_title">Perfekte daten</string>
+	<string name="setting_usr_info_act_detail_title">Meine informationen</string>
+	<string name="setting_usr_info_detail_complete">Vollständige</string>
+	<string name="string_title_skip">Springen</string>
+	<string name="edittext_usr_info_basic">Bitte geben sie ihren namen</string>
+	<string name="setting_usr_info_act_basic_next_btn">Der nächste schritt</string>
+	<string name="please_set_the_avatar">Stellen sie den avatar</string>
+	<string name="please_set_the_nickname">Stellen sie den spitznamen</string>
+	<string name="please_set_the_height">Stellen sie bitte ihren höhepunkt</string>
+	<string name="please_set_the_weight">Bitte geben sie ihr gewicht</string>
+	<string name="please_set_the_sex">Ich bitte sie sex</string>
+	<string name="please_set_the_birthday">Stellen sie bitte ihren geburtstag</string>
+	
+	<!-- 下拉刷新 没有网络时的提示 -->
+	<string name="no_network_state_notice">Kein netz, richten sie sich bitte netzwerkverbindung.</string>
+	
+	<!-- 无网络情况下，基本资料设置页面提示 -->
+	<string name="avatar_update_no_network_fail">Avatar - upload gescheitert, überprüfen sie bitte das netz!</string>
+	<string name="change_user_info_no_network_fail">ändern sich nicht, überprüfen sie bitte das netz!</string>
+	
+</resources>

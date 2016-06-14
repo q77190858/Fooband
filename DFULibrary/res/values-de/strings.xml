@@ -1,0 +1,34 @@
+<resources>
+    <string name="dfu_unknown_name">unbenanntes Gerätunbenanntes Gerät</string>
+    
+    <string name="dfu_action_abort">AbbrechenAbbrechen</string>
+
+    <string name="dfu_status_initializing">Initialisierung läuft &#8230;</string>
+    <string name="dfu_status_connecting">Verbindung wird hergestellt&#8230;</string>
+    <string name="dfu_status_starting">DFU wird gestartet&#8230;</string>
+    <string name="dfu_status_uploading">Upload läuft &#8230; Upload läuft&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">Teil %d/%d wird hochgeladen&#8230;</string>
+    <string name="dfu_status_validating">Verbindung wird getrenn&#8230;</string>
+    <string name="dfu_status_disconnecting">Verbindung wird getrennt&#8230;</string>
+    <string name="dfu_status_completed">Fertig</string>
+    <string name="dfu_status_aborted">Abgebrochen</string>
+    <string name="dfu_status_aborting">Abbruch läuft&#8230;</string>
+    <string name="dfu_status_error">Upload fehlgeschlagen</string>
+    
+    <string name="dfu_status_connecting_msg">Verbindungsaufbau zu %s&#8230;</string>
+    <string name="dfu_status_starting_msg">DFU-Prozess wird initialisiert&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">Komponenten werden übertragen an %s &#8230;</string>
+    <string name="dfu_status_uploading_msg">Anwendung wird übertragen an %s &#8230;</string>
+    <string name="dfu_status_validating_msg">Validierung läuft&#8230;</string>
+    <string name="dfu_status_completed_msg">Anwendung abgesendet.</string>
+    <string name="dfu_status_aborted_msg">Upload der Anwendung abgebrochen.</string>
+    <string name="dfu_status_disconnecting_msg">Verbindung zu %s wird getrennt &#8230;</string>
+    <string name="dfu_status_error_msg">DFU-Prozess fehlgeschlagen.</string>
+    
+	<string name="dfu_progress">%d%%</string>
+</resources>
+
+<!-- 
+
+ -->	
+	

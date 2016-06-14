@@ -1,0 +1,15 @@
+<resources>
+
+    <string name="string_hours">"Stunde "</string>
+    <string name="string_minutes">"Minute "</string>
+    <string name="string_days">Tag</string>
+    <string name="string_months">SieMonat</string>
+    <string name="string_years">Jahr</string>
+    
+	<string name="string_short_minutes">" Minute "</string>
+    <string name="string_steps">" Schritte "</string>
+    
+    <string name="string_sport_target">Ziel:%1$d Schritte</string>
+    <string name="string_sleep_target">Schlaf:%1$d Stunde</string>
+    
+</resources>

@@ -1,0 +1,111 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/background3"
+    android:orientation="vertical" >
+
+    <include
+        android:id="@+id/id_include_sedentary"
+        layout="@layout/included_setting_activity_title" />
+
+    <LinearLayout
+        android:id="@+id/id_ll_sedentary_content"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="32dp"
+        android:background="@color/white"
+        android:orientation="vertical" >
+
+        <ImageView
+            android:id="@+id/divider15"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider"
+            android:contentDescription="@string/dummy" />
+
+        <RelativeLayout
+            android:id="@+id/RelativeLayout13"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_apart_item_margin_height"
+            android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+            android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+            <TextView
+                android:id="@+id/id_tv_sedentary_active_descriptor"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/string_function_sedentary_reminder"
+                android:textSize="@dimen/menu_apart_text_size" />
+
+            <com.grdn.widgets.SwitchButton
+                android:id="@+id/id_sb_sedentary_reminder_active"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true" />
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/divider14"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider"
+            android:contentDescription="@string/dummy" />
+
+        <RelativeLayout
+            android:id="@+id/id_rl_setting_sedentary_remainder"
+            android:layout_width="match_parent"
+            android:layout_height="@dimen/menu_apart_item_margin_height"
+            android:layout_marginLeft="@dimen/menu_apart_item_margin_left"
+            android:layout_marginRight="@dimen/menu_apart_item_margin_right" >
+
+            <TextView
+                android:id="@+id/id_tv_setting_sedentary_remainder"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="@string/string_function_sedentary_invert_time"
+                android:textSize="@dimen/menu_apart_text_size" />
+
+            <ImageView
+                android:id="@+id/image_modify0"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/setting_modify" />
+
+        </RelativeLayout>
+
+        <ImageView
+            android:id="@+id/ImageView01"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@drawable/divider"
+            android:contentDescription="@string/dummy" />
+
+    </LinearLayout>
+
+    <RelativeLayout
+        android:id="@+id/id_iv_sedentary_image"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@id/id_ll_sedentary_content"
+        android:layout_below="@id/id_include_sedentary" >
+
+        <ImageView
+            android:id="@+id/imageView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:contentDescription="@string/dummy"
+            android:src="@drawable/sitremind" />
+
+    </RelativeLayout>
+
+</RelativeLayout>

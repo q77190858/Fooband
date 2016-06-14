@@ -1,0 +1,34 @@
+<resources>
+    <string name="dfu_unknown_name">enhed uden navnenhed uden navn</string>
+    
+    <string name="dfu_action_abort">AfbrydAfbryd</string>
+
+    <string name="dfu_status_initializing">Initialiserer&#8230;</string>
+    <string name="dfu_status_connecting">Tilslutter&#8230;</string>
+    <string name="dfu_status_starting">Starter DFU&#8230;</string>
+    <string name="dfu_status_uploading">Overfører&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">Overfører del %d/%d&#8230;</string>
+    <string name="dfu_status_validating">Validerer&#8230;</string>
+    <string name="dfu_status_disconnecting">Afbryder&#8230;</string>
+    <string name="dfu_status_completed">Udfør</string>
+    <string name="dfu_status_aborted">Afbrudt</string>
+    <string name="dfu_status_aborting">Afbryder&#8230;</string>
+    <string name="dfu_status_error">Overførsel mislykkedes</string>
+    
+    <string name="dfu_status_connecting_msg">Tilslutter til %s&#8230;</string>
+    <string name="dfu_status_starting_msg">Initialiserer DFU-proces&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">Overfører komponenter til %s&#8230;</string>
+    <string name="dfu_status_uploading_msg">Overfører program til %s&#8230;</string>
+    <string name="dfu_status_validating_msg">Validerer&#8230;</string>
+    <string name="dfu_status_completed_msg">Programmet er blevet sendt.</string>
+    <string name="dfu_status_aborted_msg">Programoverførslen er blevet annulleret.</string>
+    <string name="dfu_status_disconnecting_msg">Afbryder forbindelsen til %s&#8230;</string>
+    <string name="dfu_status_error_msg">DFU-processen mislykkedes.</string>
+    
+	<string name="dfu_progress">%d%%</string>
+</resources>
+
+<!-- 
+
+ -->	
+	

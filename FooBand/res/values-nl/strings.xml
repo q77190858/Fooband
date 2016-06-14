@@ -1,0 +1,351 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">Fooband2</string>
+    <string name="app_title">Fooband2</string>
+    
+    <string name="app_version">Version 2.01D</string>
+    <string name="app_thanks_alot">Hartelijk dank voor het gebruik van de intelligente fitnessbelt van Fooband2!</string>
+    
+	<string name="error_android_version_too_low">Android-versie te oud. Toepassing wordt gesloten!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    <string name="error_bluetooth_version_too_low">Bluetooth biedt geen ondersteuning voor BLE. Toepassing wordt gesloten!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020</string>
+    
+    <string name="string_user_account">Vul je e-mail adres in.</string>
+    <string name="string_user_password">Voer een wachtwoord van 6 tot 16 tekens in</string>
+    
+    <string name="string_user_login_login">Inloggen</string>
+    <string name="string_user_login_register">Registreren</string>
+    
+	<string name="string_user_register_login">Login</string>
+    <string name="string_user_register_register">Registreren</string>
+    
+    <string name="exit_app">Klik nogmaals om app te verlaten</string>
+    
+     <!-- password_recoverd start -->
+    <string name="string_user_password_recoverd">Wachtwoord vergeten?</string>
+    <string name="string_user_password_complete">Herstel.</string>
+    <string name="string_user_passwrod_recovered_back">Terug</string>
+    <string name="string_user_passwrod_code_doing">In de verwerking, even geduld aub</string>
+    <string name="string_user_passwrod_code_sucess">Verzonden Code geverifieerd</string>
+    <string name="string_user_passwrod_code_failure">Operatie fout, probeer het opnieuw!</string>
+    <string name="string_login_code_error">Operatie fout, probeer het opnieuw!</string>
+    <string name="string_user_password_code_error">Controleren code error!</string>
+    <string name="string_user_password_recovered_success">Wachtwoord hersteld succes, controleer dan uw nieuw wachtwoord!</string>
+    <string name="string_user_password_recoverd_hint">Neem ingang controleren code.</string>
+    <string name="string_user_password_recover_content">Het systeem genereert een nieuw wachtwoord en stuurt deze naar uw e-mailadres in. Medion respecteert uw privacy. Het wachtwoord wordt versleuteld, niemand anders kan zien.</string>
+   <!-- password_recoverd end -->
+    
+	<string name="string_user_login_notice">Door Login te kiezen, stemt u ermee in zich te zullen houden aan Medion</string>
+    <string name="string_user_register_notice">Door Registratie te kiezen, stemt u ermee in zich te zullen houden aan Medion</string>
+    <string name="string_user_notice_content">GEBRUIKERSOVEREENKOMST EN PRIVACYBELEID</string>
+    
+	<string name="string_find_new_app_version">App-update controleren</string>
+	<string name="string_find_new_app_version_none">Huidige versie van APP is de meest recente!</string>
+    <string name="string_find_new_app_version_content">Nieuwe APP-versie %1$s gevonden. Klik om te installeren!</string>
+    
+    <string name="string_notification_read_authorize_title">S.v.p. autoriseren</string>
+	<string name="string_notification_read_authorize_message">Deze toepassing vereist toegang tot de meldingenbalk！</string>
+    
+    <string name="dummy"> </string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="string_notice_push_to_refresh">Trek hier naar beneden op datum te vernieuwen!</string>
+    
+    <string name="string_menu_sport">Sport</string>
+    <string name="string_menu_sleep">Slaap</string>
+    <string name="string_menu_rank">Ranglijst</string>
+    <string name="string_menu_friends">Vrienden</string>
+    <string name="string_menu_setting">Instelling</string>
+    
+    <string name="string_usr_info_image_title">Afbeelding gebruiker</string>
+    
+	<string name="string_total_calorics">%1$d kcal</string>
+    <string name="string_distance">%1$.2f kilometer</string>
+	<string name="string_active_calorics">%1$d kcal</string>
+	<string name="string_active_time">%1$s%2$d minuten</string>
+	
+	<string name="string_light_sleep_time">" MV.SLP: %1$s%2$d min."</string>
+	<string name="string_deep_sleep_time">" DP.SLP: %1$s%2$d min."</string>
+	<string name="string_awake_count">" wakker: %1$d keer"</string>
+	<string name="string_awake_time">" wakker: %1$s%2$d minuten"</string>
+	
+	<string name="string_title_sport_descript">Sport</string>
+	<string name="string_title_sport_datetime">Vandaag</string>
+	<string name="string_title_sleep_descript">Effectieve slaap</string>
+	<string name="string_title_sleep_datetime">Afgelopen nacht</string>
+	
+	<string name="string_input_nickname_please">Voer bijnaam in:</string>
+	
+	<string name="string_please_register_first">Log in!</string>
+	<string name="string_refresh_success">Synchronisatie geslaagd!</string>
+	<string name="string_refresh_failure_0">Synchronisatie mislukt. Controleer apparaat!</string>
+	<string name="string_refresh_failure_1">Bluetooth-synchronisatie mislukt. S.v.p. opnieuw proberen!</string>
+	<string name="string_refresh_failure_2">Bluetooth-synchronisatie mislukt. S.v.p. opnieuw proberen!</string>
+	<string name="string_config_success">Instellen geslaagd!</string>
+	<string name="string_config_failure">Wacht een ogenblik!</string>
+	
+	<string name="string_login_doing">Bezig met inloggen. Probeer het later opnieuw&#8230;</string>
+	<string name="string_login_success">Inloggen geslaagd!</string>
+	<string name="string_login_error">Account of wachtwoord is onjuist!</string>
+	<string name="string_login_account_error">Fout bij invoeren account!</string>
+	<string name="string_login_password_error">Fout bij invoeren wachtwoord!</string>
+	<string name="string_login_re_password_error">Fout bij invoeren herhaling wachtwoord!</string>
+	<string name="string_newwork_error">Controleer het netwerk</string>
+	<string name="string_network_timeout">Time-out bij netwerkaanvraag. Controleer het netwerk</string>
+	
+	<string name="string_register_error_account_exsist">Het account bestaat al!</string>
+	<string name="string_register_success">De succesvolle registratie, inloggen.</string>
+	
+	<string name="dfu_file_size_text">%d bytes</string>
+	<string name="dfu_progress_bar_percent">0%</string>
+	<string name="dfu_progress_bar_status">Verbinding maken</string>
+	<string name="dfu_update_rom_success">De firmware-upgrade is geslaagd</string>
+	<string name="dfu_update_device_info">Apparaatinformatie wordt bijgewerkt&#8230;</string>
+	
+	<string name="dfu_update_rom_failure">De firmware-upgrade is mislukt</string>
+	<string name="dfu_update_device_info2">Binnen één minuut wordt de oudere firmware hersteld&#8230;</string>
+	
+	<string name="httpError">Netwerkfout</string>
+	<string name="deviceError">Koppel een apparaat</string>
+
+    <!--  FOR BLUETOOTH BLE  -->
+    <string name="ble_not_supported"> Het apparaat biedt geen ondersteuning voor Bluetooth 4.0 LE</string>
+    
+    <!-- NOTIFICATION -->
+    <string name="app_notification">我是好人</string>
+    
+    <!-- ATTENTION -->
+    <string name="bind_device_attention">"Houd het te koppelen apparaat zo dicht mogelijk bij de mobiele telefoon, bijvoorbeeld in de rechterboven- of de linkeronderhoek van het scherm"</string>
+    
+    <!-- TITLE -->
+	<string name="string_tv_pairs_title">Koppeling van nieuw apparaat</string>
+	
+	<!-- BUTTON -->
+	<string name="string_btn_pairs_start">Koppeling van nieuw apparaat starten</string>
+    
+	<!-- DIALOG PAIRS -->
+	<string name="string_dialog_pairs_title_no_device">Kon het apparaat niet vinden!</string>
+	<string name="string_dialog_pairs_title">Wordt het apparaat gekoppeld?</string>
+	<string name="string_dialog_unpairs_title">Scheiden?</string>
+	<string name="string_dialog_pairs_message_header"> </string>
+	<string name="string_dialog_pairs_message_device_name">"  Apparaatnaam:"</string>
+	<string name="string_dialog_pairs_message_device_hw_version">"  Hardwareversie:"</string>
+	<string name="string_dialog_pairs_message_device_fw_version">"  Firmwareversie:"</string>
+	<string name="string_dialog_pairs_message_device_serial_number">"  Serienummer:"</string>
+	<string name="string_dialog_pairs_message_tailer"> </string>
+	
+	<!-- DIALOG CHECK ROM -->
+	<string name="string_dialog_check_newest_rom_version">Nieuwe versie controleren</string>
+	<string name="string_dialog_checking_newest_rom_version">Nieuwe versie wordt gecontroleerd&#8230;</string>
+	<string name="string_dialog_current_rom_is_newest">Dit is de meest recente versie!</string>
+	<string name="string_dialog_title_upgrade_rom">Nieuwe firmware detecteren:</string>
+	<string name="string_dialog_message_upgrade_rom">Onmiddellijk bijwerken?</string>
+	
+	<!-- DIALOG CONFIRM BUTTON -->
+	<string name="string_dialog_positive">Bevestigen</string>
+	<string name="string_dialog_negative">Annuleren</string>
+	
+	<!-- DIALOG CONFIGUTATE CONFIRM -->
+
+	<string name="string_step_unit">stappen</string>
+	<string name="string_distance_unit">KM</string>
+	<string name="string_my_rank">U heeft vandaag %1$d voltooid!</string>
+	
+	<string name="string_last_sync_time">Last Synchronisatie: %1$s</string>
+	
+	<!-- DIALOG SETTING ALARM -->
+	<string name="string_alarm_dialog_hour_minute_divider">:</string>
+	<string name="string_alarm_dialog_sunday">ZO</string>
+	<string name="string_alarm_dialog_monday">MA</string>
+	<string name="string_alarm_dialog_tuesday">DI</string>
+	<string name="string_alarm_dialog_wednesday">WO</string>
+	<string name="string_alarm_dialog_thursday">DO</string>
+	<string name="string_alarm_dialog_friday">VR</string>
+	<string name="string_alarm_dialog_saturday">ZA</string>
+	<string name="string_alarm_dialog_week0">ZO</string>
+	<string name="string_alarm_dialog_week1">MA</string>
+	<string name="string_alarm_dialog_week2">DI</string>
+	<string name="string_alarm_dialog_week3">WO</string>
+	<string name="string_alarm_dialog_week4">DO</string>
+	<string name="string_alarm_dialog_week5">VR</string>
+	<string name="string_alarm_dialog_week6">ZA</string>
+	<string name="string_alarm_dialog_circle_true">Herhalen</string>
+	<string name="string_alarm_dialog_circle_false">Alleen deze week</string>
+	
+	<string name="string_disturb_mode_dialog_divider0">"uur ~ "</string>
+	<string name="string_disturb_mode_dialog_divider1">uur</string>
+
+	<!-- SETTING & MENU -->
+	<string name="string_global_setting">Algemene instellingen</string>
+		<!-- USER INFORMATION -->
+		<string name="string_user_central">Individueel centrum</string>
+		<string name="string_user_account_info">Accountinformatie</string>
+			<string name="string_first_name">Naam</string>
+			<string name="string_last_name">Achternaam</string>
+			<string name="string_nick_name">De bijnaam</string>
+			<string name="string_account_name">Account</string>
+			<string name="string_get_my_password">Het wachtwoord zoeken</string>
+		<string name="string_user_info">Persoonlijke gegevens</string>
+			<string name="string_user_nickname">De bijnaam</string>
+			<string name="string_user_id">Gebruiker-ID</string>
+			<string name="string_user_height">Lengte</string>
+			<string name="string_user_height_unit">CM</string>
+			<string name="string_user_weight">Gewicht</string>
+			<string name="string_user_weight_unit">KG</string>
+			<string name="string_user_sexy">Geslacht</string>
+			<string name="string_user_birthday">Geboortedatum</string>
+			<string name="string_setting_user_image_notice">Klik op afbeelding om deze te bewerken!</string>
+		<string name="string_setting_targets">Doelstellingen bepalen</string>
+			<string name="string_setting_targets_sport">"Oefening:stappen"</string>
+			<string name="string_setting_targets_sleep">"Slaap:uur"</string>
+		<string name="string_device_info">Apparaatinformatie</string>	
+			<string name="string_device_name">De apparaatnaam:%1$s</string>
+			<string name="string_device_partnumber">Onderdeelnummer apparaat:</string>
+			<string name="string_device_hw_version">Hardwareversie:%1$s</string>
+			<string name="string_device_fw_version">Firmwareversie:%1$s</string>
+			<string name="string_device_check_fw_version">Controleren op updates</string>
+			<string name="string_device_serial_number">"Serienummer    :%1$s"</string>
+		<string name="string_device_funciton_setting">Functie-instellingen</string>
+			<string name="string_function_agendar_reminder">Schema</string>
+			<string name="string_function_agendar_reminder_descriptor">Het schema</string>
+			<string name="string_function_agendar_reminder_title_default">Go home and have a look</string>
+			<string name="string_function_agendar_reminder_datetime_default">30-12-2020, vrijdag 17:18</string>
+			<string name="string_function_sedentary_reminder">Herinnering inactiviteits</string>
+				<string name="string_function_sedentary_invert_time">"Als de tijd van inactiviteit    %1$d uur en %2$02d minuten bereikt"</string>
+			<string name="string_function_alarm_reminder">Het alarm</string>
+			<string name="string_function_alarm_reminder_descriptor">Alarminstelling</string>
+			<string name="string_function_call_reminder">Gespreksherinnering</string>
+			<string name="string_function_message_reminder">Sms-meldingen</string>
+			<string name="string_function_stopwatch_enable">Omschakeling stopwatch inschakelen</string>
+			<string name="string_setting_stopwatch_notice">"Tip: ga na het inschakelen eerst naar de categorie "sport" en en voer een synchronisatie uit. Houdt vervolgens gedurende 3 seconden op de armand het pictogram "Aantal stappen" ingedrukt om de stopwatch-modus in of uit te schakelen."</string>
+		<string name="string_device_display_controller">Weergavebesturing</string>	
+			<string name="string_device_display_daylight_saving_time">zomertijd</string>
+			<string name="string_device_display_time_format_24h">De 24-uurs klok</string>
+			<string name="string_device_display_date_and_week">Datumweergave</string>
+			<string name="string_device_display_sport_distance">Weergave afgelegde afstand</string>
+			<string name="string_device_display_total_caloric">Weergave calorieverbruik</string>
+			<string name="string_device_display_total_sleep_time">Weergave slaapstatus</string>
+		<string name="string_setting_no_disturb_mode">Modus Niet storen</string>
+			<string name="string_setting_no_disturb_time">Periode Niet storen</string>
+			<string name="string_setting_no_disturb_time_content0">%1$02d uur ~ volg. %2$02d uur</string>
+			<string name="string_setting_no_disturb_time_content1">%1$02d uur ~ %2$02d uur</string>
+			<string name="string_setting_no_disturb_notice">"Tip: na inschakelen van de modus "niet storen", worden de trilfunctie en het versterken van de helderheid onderdrukt!"</string>
+		<string name="string_setting_app_about">Over APP</string>
+			<string name="string_setting_app_info_version">Versie</string>
+			<string name="string_setting_app_info_manufacturer">Fabrikant</string>
+			<string name="string_setting_app_info_homepage">Startpagina</string>
+			<string name="string_setting_app_info_homepage_content">www.medion.com</string>
+			<string name="string_setting_user_agreement">Gebruikersovereenkomst</string>
+			<string name="string_setting_check_app_new_version">Nieuwe versie app controleren</string>
+			<string name="string_setting_mobile_manufacturer">Mobiele fabrikant: %1$s</string>
+			<string name="string_setting_mobile_model">Mobiel model: %1$s</string>
+			<string name="string_setting_android_suitability_test">Android: Android %1$s</string>
+			<string name="string_setting_bluetooth_suitability_test">Bluetooth: %1$s</string>
+		
+		<string name="string_setting_device_bind_state">Apparaat voor gekoppelde status:</string>	
+		<string name="string_btn_bind_new_device_with_user">Koppeling van nieuw apparaat</string>	
+		<string name="string_btn_release_current_device_bond">Scheiden</string>	
+		<string name="string_btn_current_user_login_out">Het gebruikersaccount verlaten</string>	
+	
+	<string name="string_list_is_loading">bezig met laden&#8230;</string>
+	
+	<string name="string_date_format">yyyy-MM-dd</string>
+	
+	<string name="string_time_hour">%1$d Uur</string>
+	
+	<string name="string_time_hour_unit">Uur</string>
+	<string name="string_time_minute_unit">Minuut</string>
+	
+	<string name="string_user_id_content">%1$s</string>
+	<string name="string_user_nickname_content">%1$s</string>
+	<string name="string_user_height_content">%1$dCM</string>
+	<string name="string_user_weight_content">%1$dKG</string>
+	<string name="string_user_birthday_content">%1$s</string>
+		<string name="string_user_birthday_year">1980</string>
+		<string name="string_user_birthday_month">09</string>
+		<string name="string_user_birthday_day">28</string>
+		<string name="string_user_birthday_year_unit">Jaar</string>
+		<string name="string_user_birthday_month_unit">Maand</string>
+		<string name="string_user_birthday_day_unit">Dag</string>
+	<string name="string_user_sexy_content">%1$s</string>
+		<string name="string_user_sexy_man">Man.</string>
+		<string name="string_user_sexy_woman">De vrouw</string>
+	
+	<!-- Name:Robin  Time:20150921  Function:显示跑步的数量 -->
+	<string name="string_steps_content">%1$d Stap</string>
+	<string name="user_target_steps_text">Stap</string>
+	<string name="tv_setting_steps">10000 Stap</string>
+	
+	<string name="string_sleep_hours_content">%1$d Uur</string>
+	<string name="user_target_sleep_text">Uur</string>
+	<string name="tv_setting_sleep">8 Uur</string>
+	
+	<!-- Name:Robin  Time:20150924  Function:  修改密码 -->
+	<string name="string_user_info_change_pwd">Het wachtwoord verandert</string>	
+	<string name="string_user_password_old">Voer de oorspronkelijke wachtwoord</string>
+	<string name="string_user_password_new">Voer de nieuwe code</string>
+	<string name="string_user_password_new_re">Herhaling van de nieuwe code</string>
+	<string name="string_user_pwd_change_submit">Indiening van</string>
+	<string name="string_old_pwd_error">De oorspronkelijke wachtwoord niet juist is.</string>
+	<string name="string_new_pwd_error">Het nieuwe wachtwoord niet in de juiste vorm</string>
+	<string name="string_doing_submit">De indiening van nieuwe.</string>
+	<string name="string_change_pwd_failure">Tot wijziging van de code niet alsjeblieft terug tot wijziging van</string>
+	<string name="string_change_pwd_success">Het wachtwoord verandert succes</string>
+	<string name="string_setting_new_password">De installatie van een nieuw wachtwoord</string>
+	
+	<string name="string_loading_data">Het laden van de gegevens</string>
+	
+	<string name="string_login_code_error_send">Is het een nieuw wachtwoord, alsjeblieft&#8230;</string>
+	<string name="get_test_code">Door de</string>
+	<string name="again_get_test_code">Het wachtwoord</string>
+	
+	<!-- Name:Robin  Time:20150918  Function:注册时的密码提醒  -->
+    <string name="string_user_register_password_notice">Kies een wachtwoord, met een lengte van 6 tot 16 tekens.Betekent dat dat je eens met de naleving van de registratie</string>
+
+	<!-- Name:Robin  Time:20150925  Function: 新增提示  -->
+	<string name="string_register_doing">De registratie van</string>
+	
+	<!-- 退出提示 -->
+	<string name="exit_notice">Tip</string>
+	<string name="exit_content">Besloten zich terug te trekken?</string>
+	<string name="exit_select_back">De achtergrond</string>
+	<string name="exit_select_exit">De uitvoer van</string>
+	
+	<!-- 分享提示相关 -->
+	<string name="share_start">Te delen.</string>
+	<string name="share_complete">Het delen van af.</string>
+	<string name="share_title_sport">Ik Train</string>
+	<string name="share_title_sleep">Ik slaap</string>
+	<string name="share_title_rank">Delen. Foogeez</string>
+	<string name="share_dialog_title">Delen.</string>
+	
+	<!-- APP 更新相关 -->
+	<string name="apk_is_downloading">Aan het downloaden…</string>
+	<string name="apk_is_downloading_wait">Wacht even.</string>
+	<string name="apk_is_connected_internet">In verband met de controle, alsjeblieft.&#8230;</string>
+	
+	<!-- 头像上传提示 -->
+	<string name="avatar_update_success">Foto \'s uploaden.</string>
+	
+	<!-- 注册后直接登录 -->
+	<string name="setting_usr_info_act_basic_title">Verbetering van persoonlijke gegevens</string>
+	<string name="setting_usr_info_act_detail_title">Mijn informatie</string>
+	<string name="setting_usr_info_detail_complete">De voltooiing van</string>
+	<string name="string_title_skip">Springen</string>
+	<string name="edittext_usr_info_basic">Voer je bijnaam.</string>
+	<string name="setting_usr_info_act_basic_next_btn">De volgende stap</string>
+	<string name="please_set_the_avatar">Zet de foto \'s</string>
+	<string name="please_set_the_nickname">Zet de bijnaam.</string>
+	<string name="please_set_the_height">Verzoekt de vaststelling van de hoogte van je</string>
+	<string name="please_set_the_weight">Zet je gewicht</string>
+	<string name="please_set_the_sex">Verzoekt de instellingen van de</string>
+	<string name="please_set_the_birthday">Alsjeblieft, je verjaardag.</string>
+	
+	<!-- 下拉刷新 没有网络时的提示 -->
+	<string name="no_network_state_notice">Geen Internet, alsjeblieft, de oprichting van een netwerk van met elkaar verbonden zijn.</string>
+	
+	<!-- 无网络情况下，基本资料设置页面提示 -->
+	<string name="avatar_update_no_network_fail">De avatar niet uploaden, controleer je netwerk.</string>
+	<string name="change_user_info_no_network_fail">Wijziging van niet, controleer het.</string>
+	
+</resources>

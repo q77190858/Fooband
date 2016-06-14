@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/register_login_bg"
+	android:focusable="true"  
+	android:focusableInTouchMode="true"  
+    android:orientation="vertical" >
+    
+    <RelativeLayout
+        android:id="@+id/relativeLayout2"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginLeft="100dp"
+        android:layout_marginTop="48dp"
+        android:background="@color/register_login_bg" >
+
+        <ImageView
+            android:id="@+id/id_iv_welcome_register"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:contentDescription="@string/dummy"
+            android:scaleType="centerInside"
+            android:src="@drawable/logo" >
+        </ImageView>
+
+        <RelativeLayout
+            android:id="@+id/id_rl_account"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_iv_welcome_register"
+            android:layout_marginTop="64dp" >
+
+            <EditText
+                android:id="@+id/id_et_account"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edittext"
+                android:inputType="textEmailAddress|number"
+                android:labelFor="@id/id_et_account"
+                android:maxEms="8"
+                android:paddingLeft="8dp"
+                android:maxLength="33"
+                android:paddingRight="25dp"
+                android:textSize="14sp"
+                android:text="@string/string_user_account" >
+            </EditText>
+
+            <ImageView
+                android:id="@+id/imageView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/icon_account" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/id_rl_password"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/id_rl_account"
+            android:layout_marginTop="8dp" >
+
+            <EditText
+                android:id="@+id/id_et_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edittext"
+                android:inputType="text"
+                android:labelFor="@id/id_et_password"
+                android:maxEms="16"
+                android:minEms="6"
+                android:maxLength="16"
+                android:textSize="14sp"
+                android:paddingLeft="8dp"
+                android:text="@string/string_user_password" />
+
+            <ImageView
+                android:id="@+id/imageView2"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/icon_password" />
+        </RelativeLayout>
+        
+		<RelativeLayout
+		    android:id="@+id/id_rl_re_password"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@id/id_rl_password"
+		    android:layout_marginTop="8dp" >
+
+            <EditText
+                android:id="@+id/id_et_re_password"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="@drawable/bg_edittext"
+                android:inputType="text"
+                android:labelFor="@id/id_et_password"
+                android:maxEms="16"
+                android:minEms="6"
+                android:paddingLeft="8dp"
+                android:maxLength="16"
+                android:textSize="14sp"
+                android:text="@string/string_user_password" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="8dp"
+                android:contentDescription="@string/dummy"
+                android:src="@drawable/icon_password" />
+        </RelativeLayout>
+
+      
+		<TextView
+		    android:id="@+id/id_tv_login"
+		    android:layout_width="wrap_content"
+		    android:layout_height="40dp"
+		    android:layout_alignParentEnd="true"
+		    android:layout_below="@id/id_rl_re_password"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginTop="64dp"
+		    android:layout_toRightOf="@id/id_tv_register"
+		    android:background="@drawable/bg_image_button"
+		    android:clickable="true"
+		    android:contentDescription="@string/dummy"
+		    android:gravity="center"
+		    android:visibility="gone"
+		    android:text="@string/string_user_register_login" /> 
+
+		<TextView
+		    android:id="@+id/id_tv_user_notice"
+		    android:layout_width="wrap_content"
+		    android:layout_height="wrap_content"
+		    android:layout_below="@+id/id_rl_re_password"
+		    android:layout_marginLeft="4dp"
+		    android:layout_marginRight="4dp"
+		    android:layout_marginTop="10dp"
+		    android:text="@string/string_user_register_password_notice"
+		    android:textSize="12sp" />
+		
+		  <TextView
+            android:id="@+id/id_tv_register"
+            android:layout_width="match_parent"
+            android:layout_height="40dp"
+            android:layout_marginTop="15dp"
+            android:layout_below="@id/id_tv_user_notice"
+            android:background="@drawable/bg_image_button_ro"
+            android:clickable="true"
+            android:contentDescription="@string/dummy"
+            android:gravity="center"
+            android:text="@string/string_user_register_register" />
+        
+		
+    </RelativeLayout>
+
+</RelativeLayout>

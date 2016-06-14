@@ -1,0 +1,34 @@
+<resources>
+    <string name="dfu_unknown_name">apparaat zonder naam</string>
+    
+    <string name="dfu_action_abort">Afbreken</string>
+
+    <string name="dfu_status_initializing">Bezig met initialiseren&#8230;</string>
+    <string name="dfu_status_connecting">Verbinding maken&#8230;</string>
+    <string name="dfu_status_starting">Gegevensoverdracht wordt gestart&#8230;</string>
+    <string name="dfu_status_uploading">Bezig met uploaden&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">Deel %d/%d&#8230; word geüpload</string>
+    <string name="dfu_status_validating">Bezig met valideren&#8230;</string>
+    <string name="dfu_status_disconnecting">Verbinding wordt verbroken&#8230;</string>
+    <string name="dfu_status_completed">Gereed</string>
+    <string name="dfu_status_aborted">Afgebroken</string>
+    <string name="dfu_status_aborting">Bezig met afbreken&#8230;</string>
+    <string name="dfu_status_error">Uploaden mislukt</string>
+    
+    <string name="dfu_status_connecting_msg">Er wordt verbinding met  %s gemaakt&#8230;</string>
+    <string name="dfu_status_starting_msg">Gegevenoverdracht wordt geïnitialiseerd&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">Onderdelen worden verzonden naar %s&#8230;</string>
+    <string name="dfu_status_uploading_msg">Toepassing wordt verzonden naar %s&#8230;</string>
+    <string name="dfu_status_validating_msg">Bezig met valideren&#8230;</string>
+    <string name="dfu_status_completed_msg">Verzenden van toepassing is geslaagd.</string>
+    <string name="dfu_status_aborted_msg">Uploaden van toepassing is geannuleerd.</string>
+    <string name="dfu_status_disconnecting_msg">Verbinding met %s wordt verbroken&#8230;</string>
+    <string name="dfu_status_error_msg">Gegevensoverdracht mislukt</string>
+    
+	<string name="dfu_progress">%d%%</string>
+</resources>
+
+<!-- 
+
+ -->	
+	

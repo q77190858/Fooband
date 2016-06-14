@@ -1,0 +1,353 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">极致手环2</string>
+    <string name="app_title">极致生活</string>
+    
+    <string name="app_version">Version 2.01D</string>
+    <string name="app_thanks_alot">感谢使用极致智能手环---“小福”！</string>
+    
+	<string name="error_android_version_too_low">您的手机无法适配极致手环，程序即将关闭!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020安卓版本过低!</string>
+    <string name="error_bluetooth_version_too_low">您的手机无法适配极致手环, 程序即将关闭!\n\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020\u0020蓝牙硬件不支持BLE!</string>
+    
+    <string name="string_user_account">请输入手机号/邮箱</string>
+    <string name="string_user_password">请输入6&#8211;16位密码</string>
+    
+    <string name="string_user_login_login">登录</string>
+    <string name="string_user_login_register">还没有账号</string>
+    
+	<string name="string_user_register_login">已经有账号</string>
+    <string name="string_user_register_register">注册</string>
+    
+    <string name="exit_app">再点一次退出程序</string>
+    
+     <!-- password_recoverd start -->
+    <string name="string_user_password_recoverd">找回密码?</string>
+    <string name="string_user_password_complete">找回密码</string>
+    <string name="string_user_passwrod_recovered_back">上一步</string>
+    <string name="string_user_passwrod_code_doing">正在处理，请稍候</string>
+    <string name="string_user_passwrod_code_sucess">验证码已经成功发送！</string>
+    <string name="string_user_passwrod_code_failure">操作失败，请重试！</string>
+    <string name="string_login_code_error">验证码不正确，请重新输入！</string>
+    <string name="string_user_password_code_error">验证码输入错误！</string>
+    <string name="string_user_password_recovered_success">密码找回成功，请查收新密码！</string>
+    <string name="string_user_password_recoverd_hint">请输入验证码</string>
+    <string name="string_user_password_recover_content">系统会帮您随即生成新的密码并发送至手机/邮箱，FOBAND尊重用户隐私，您的密码会被加密保存，任何人都无法查看</string>
+   <!-- password_recoverd end -->
+    
+    <!-- Name:Robin  Time:20150918  Function:注册时的密码提醒  -->
+    <string name="string_user_register_password_notice">注册表示您同意遵守极致生活的</string>
+	<string name="string_user_login_notice">登录表示您同意遵守极致生活的</string>	
+    <string name="string_user_register_notice">注册表示您同意遵守极致生活的</string>
+    <string name="string_user_notice_content">用户协议及隐私政策</string>
+    
+	<string name="string_find_new_app_version">检查更新</string>
+	<string name="string_find_new_app_version_none">当前App为最新版本！</string>
+    <string name="string_find_new_app_version_content">发现新版本 %1$s, 点击下载安装！</string>
+    <string name="find_new_app_version_exist">检测到新版本，是否立即更新？</string>
+    
+    <string name="string_notification_read_authorize_title">请授权</string>
+	<string name="string_notification_read_authorize_message">本应用需要通知栏访问权限！</string>
+    
+    <string name="dummy"> </string>
+    <string name="hello_world">Hello world!</string>
+    
+    <string name="string_notice_push_to_refresh">下拉可同步数据</string>
+    
+    <string name="string_menu_sport">运动</string>
+    <string name="string_menu_sleep">睡眠</string>
+    <string name="string_menu_rank">排行榜</string>
+    <string name="string_menu_friends">好友</string>
+    <string name="string_menu_setting">设置</string>
+    
+    <string name="string_usr_info_image_title">用户头像</string>
+    
+	<string name="string_total_calorics">%1$d 大卡</string>
+    <string name="string_distance">%1$.2f 公里</string>
+	<string name="string_active_calorics">%1$d 大卡</string>
+	<string name="string_active_time">%1$s%2$d 分钟</string>
+	
+	<string name="string_light_sleep_time">" 浅睡: %1$s%2$d分钟"</string>
+	<string name="string_deep_sleep_time">" 深睡: %1$s%2$d分钟"</string>
+	<string name="string_awake_count">" 清醒: %1$d次"</string>
+	<string name="string_awake_time">" 清醒: %1$s%2$d分钟"</string>
+	
+	<string name="string_title_sport_descript">运动</string>
+	<string name="string_title_sport_datetime">今天</string>
+	<string name="string_title_sleep_descript">有效睡眠</string>
+	<string name="string_title_sleep_datetime">昨晚</string>
+	
+	<string name="string_date_format">yyyy年MM月dd日</string>
+	
+	<string name="string_time_hour">%1$d小时</string>
+	
+	<string name="string_time_hour_unit">小时</string>
+	<string name="string_time_minute_unit">分钟</string>
+	
+	<string name="string_input_nickname_please">请输入昵称:</string>
+	
+	<string name="string_please_register_first">请先登录！</string>
+	<string name="string_refresh_success">同步成功！</string>
+	<string name="string_refresh_failure_0">同步失败, 请确认设备在身边 ！</string>
+	<string name="string_refresh_failure_1">同步失败, 请重试 ！</string>
+	<string name="string_refresh_failure_2">同步失败, 请重试 ！</string>
+	<string name="string_config_success">设置成功！</string>
+	<string name="string_config_failure">正忙，请稍后！</string>
+	
+	<string name="string_login_doing">正在登陆，请稍后&#8230;</string>
+	<string name="string_login_success">登陆成功！</string>
+	<string name="string_login_error">账号或密码错误！</string>
+	<string name="string_login_account_error">账号输入错误！</string>
+	<string name="string_login_password_error">密码输入错误！</string>
+	<string name="string_login_re_password_error">重复密码输入错误！</string>
+	<string name="string_newwork_error">请检查网络是否已开启！</string>
+	<string name="string_network_timeout">网络请求超时，请检查网络！</string>
+	
+	<string name="string_register_error_account_exsist">该账号已存在！</string>
+	<string name="string_register_success">注册成功，正在登录…</string>
+	<!-- Name:Robin  Time:20150925  Function: 新增提示  -->
+	<string name="string_register_doing">正在注册……</string>
+	
+	<string name="dfu_file_size_text">%d bytes</string>
+	<string name="dfu_progress_bar_percent">0%</string>
+	<string name="dfu_progress_bar_status">正在连接</string>
+	<string name="dfu_update_rom_success">固件升级成功</string>
+	<string name="dfu_update_device_info">正在更新设备信息&#8230;</string>
+	
+	<string name="dfu_update_rom_failure">固件升级失败</string>
+	<string name="dfu_update_device_info2">固件将在一分钟内重置&#8230;</string>
+	
+	<string name="httpError">网络异常</string>
+	<string name="deviceError">请先绑定一个设备</string>
+
+    <!--  FOR BLUETOOTH BLE  -->
+    <string name="ble_not_supported"> 本设备不支持蓝牙4.0 BLE</string>
+    
+    <!-- NOTIFICATION -->
+    <string name="app_notification">我是好人</string>
+    
+    <!-- ATTENTION -->
+    <string name="bind_device_attention">"请将要绑定的设备尽量靠近手机，比如屏幕的右上角，或者左下角"</string>
+    
+    <!-- TITLE -->
+	<string name="string_tv_pairs_title">绑定新设备</string>
+	
+	<!-- BUTTON -->
+	<string name="string_btn_pairs_start">开始绑定新设备</string>
+    
+	<!-- DIALOG PAIRS -->
+	<string name="string_dialog_pairs_title_no_device">找不到设备！</string>
+	<string name="string_dialog_pairs_title">绑定该设备？</string>
+	<string name="string_dialog_unpairs_title">解除绑定？</string>
+	<string name="string_dialog_pairs_message_header"> </string>
+	<string name="string_dialog_pairs_message_device_name">"  设备名称："</string>
+	<string name="string_dialog_pairs_message_device_hw_version">"  硬件版本："</string>
+	<string name="string_dialog_pairs_message_device_fw_version">"  固件版本："</string>
+	<string name="string_dialog_pairs_message_device_serial_number">"  序列号："</string>
+	<string name="string_dialog_pairs_message_tailer"> </string>
+	
+	<!-- DIALOG CHECK ROM -->
+	<string name="string_dialog_check_newest_rom_version">检查新版本</string>
+	<string name="string_dialog_checking_newest_rom_version">正在检查新版本&#8230;</string>
+	<string name="string_dialog_current_rom_is_newest">当前已是最新版本！</string>
+	<string name="string_dialog_title_upgrade_rom">检测到新固件:</string>
+	<string name="string_dialog_message_upgrade_rom">是否立即更新？</string>
+	
+	<!-- DIALOG CONFIRM BUTTON -->
+	<string name="string_dialog_positive">确认</string>
+	<string name="string_dialog_negative">取消</string>
+	
+	<!-- DIALOG CONFIGUTATE CONFIRM -->
+
+	<string name="string_step_unit">步</string>
+	<string name="string_distance_unit">公里</string>
+	<string name="string_my_rank">您排名第%1$d位</string>
+	
+	<string name="string_last_sync_time">最后同步于：%1$s</string>
+	
+	<!-- DIALOG SETTING ALARM -->
+	<string name="string_alarm_dialog_hour_minute_divider">:</string>
+	<string name="string_alarm_dialog_sunday">周日</string>
+	<string name="string_alarm_dialog_monday">周一</string>
+	<string name="string_alarm_dialog_tuesday">周二</string>
+	<string name="string_alarm_dialog_wednesday">周三</string>
+	<string name="string_alarm_dialog_thursday">周四</string>
+	<string name="string_alarm_dialog_friday">周五</string>
+	<string name="string_alarm_dialog_saturday">周六</string>
+	<string name="string_alarm_dialog_week0">日</string>
+	<string name="string_alarm_dialog_week1">一</string>
+	<string name="string_alarm_dialog_week2">二</string>
+	<string name="string_alarm_dialog_week3">三</string>
+	<string name="string_alarm_dialog_week4">四</string>
+	<string name="string_alarm_dialog_week5">五</string>
+	<string name="string_alarm_dialog_week6">六</string>
+	<string name="string_alarm_dialog_circle_true">每周重复</string>
+	<string name="string_alarm_dialog_circle_false">仅本周</string>
+	
+	<string name="string_disturb_mode_dialog_divider0">"点 ~ "</string>
+	<string name="string_disturb_mode_dialog_divider1">点</string>
+
+	<!-- SETTING & MENU -->
+	<string name="string_global_setting">全局设置</string>
+		<!-- USER INFORMATION -->
+		<string name="string_user_central">个人中心</string>
+		<string name="string_user_account_info">账户信息</string>
+			<string name="string_first_name">名</string>
+			<string name="string_last_name">姓</string>
+			<string name="string_nick_name">昵称</string>
+			<string name="string_account_name">账户</string>
+			<string name="string_get_my_password">找回密码</string>
+		<string name="string_user_info">基本资料</string>
+			<string name="string_user_nickname">昵称</string>
+			<string name="string_user_id">用户ID</string>
+			<string name="string_user_height">身高</string>
+			<string name="string_user_height_unit">厘米</string>
+			<string name="string_user_weight">体重</string>
+			<string name="string_user_weight_unit">公斤</string>
+			<string name="string_user_sexy">性别</string>
+			<string name="string_user_birthday">出生日期</string>
+			<string name="string_setting_user_image_notice">点击上面头像可拍照自定义头像！</string>
+		<string name="string_setting_targets">目标设定</string>
+			<string name="string_setting_targets_sport">"每天运动：步"</string>
+			<string name="string_setting_targets_sleep">"每天睡眠：小时"</string>
+		<string name="string_device_info">设备信息</string>	
+			<string name="string_device_name">设备名称：%1$s</string>
+			<string name="string_device_partnumber">设备型号：</string>
+			<string name="string_device_hw_version">硬件版本：%1$s</string>
+			<string name="string_device_fw_version">固件版本：%1$s</string>
+			<string name="string_device_check_fw_version">检查更新</string>
+			<string name="string_device_serial_number">"序列号    ：%1$s"</string>
+		<string name="string_device_funciton_setting">功能设置</string>
+			<string name="string_function_agendar_reminder">行事历</string>
+			<string name="string_function_agendar_reminder_descriptor">日程安排</string>
+			<string name="string_function_agendar_reminder_title_default">回家看看</string>
+			<string name="string_function_agendar_reminder_datetime_default">2020–12–30 星期五 17:18</string>
+			<string name="string_function_sedentary_reminder">久坐提醒</string>
+				<string name="string_function_sedentary_invert_time">"若不活动时间达到    %1$d 小时 %2$02d 分钟"</string>
+			<string name="string_function_alarm_reminder">闹钟</string>
+			<string name="string_function_alarm_reminder_descriptor">闹钟设置</string>
+			<string name="string_function_call_reminder">来电提醒</string>
+			<string name="string_function_message_reminder">短信提醒</string>
+			<string name="string_function_message_reminder_qq">QQ提醒</string>
+			<string name="string_function_message_reminder_wechat">微信提醒</string>
+			<string name="string_function_stopwatch_enable">码表切换</string>
+			<string name="string_setting_stopwatch_notice">"提示：开启码表切换后，可在手环‘步数页’长按3秒，进入或退出码表模式！"</string>
+		<string name="string_device_display_controller">显示控制</string>	
+			<string name="string_device_display_daylight_saving_time">夏令时</string>
+			<string name="string_device_display_time_format_24h">时钟24小时制</string>
+			<string name="string_device_display_date_and_week">日期星期显示</string>
+			<string name="string_device_display_sport_distance">运动距离显示</string>
+			<string name="string_device_display_total_caloric">消耗热量显示</string>
+			<string name="string_device_display_total_sleep_time">睡眠时间显示</string>
+		<string name="string_setting_no_disturb_mode">勿扰模式</string>
+			<string name="string_setting_no_disturb_time">勿扰时段</string>
+			<string name="string_setting_no_disturb_time_content0">当日%1$02d点~次日%2$02d点</string>
+			<string name="string_setting_no_disturb_time_content1">当日%1$02d点~当日%2$02d点</string>
+			<string name="string_setting_no_disturb_notice">"提示：开启勿扰模式后，会关闭设备的震动和翻腕亮屏功能！"</string>
+		<string name="string_setting_app_about">关于APP</string>
+			<string name="string_setting_app_info_version">版本</string>
+			<string name="string_setting_app_info_manufacturer">厂商</string>
+			<string name="string_setting_app_info_homepage">主页</string>
+			<string name="string_setting_app_info_homepage_content">www.foogeez.com</string>
+			<string name="string_setting_user_agreement">用户协议</string>
+			<string name="string_setting_check_app_new_version">检查更新</string>
+			<string name="string_setting_mobile_manufacturer">手机厂商 : %1$s</string>
+			<string name="string_setting_mobile_model">手机型号 : %1$s</string>
+			<string name="string_setting_android_suitability_test">安卓适配 : Android %1$s</string>
+			<string name="string_setting_bluetooth_suitability_test">蓝牙适配 : %1$s</string>
+		
+		<string name="string_setting_device_bind_state">设备绑定状态：</string>	
+		<string name="string_btn_bind_new_device_with_user">绑定新设备</string>	
+		<string name="string_btn_release_current_device_bond">解除绑定</string>	
+		<string name="string_btn_current_user_login_out">退出用户账号</string>	
+	<string name="string_enjoy_fooband">如何玩转极致手环</string>
+	
+	<string name="string_list_is_loading">正在加载…</string>
+	
+	<string name="string_user_id_content">%1$s</string>
+	<string name="string_user_nickname_content">%1$s</string>
+	<string name="string_user_height_content">%1$d厘米</string>
+	<string name="string_user_weight_content">%1$d公斤</string>
+	<string name="string_user_birthday_content">%1$s</string>
+		<string name="string_user_birthday_year">1980</string>
+		<string name="string_user_birthday_month">09</string>
+		<string name="string_user_birthday_day">28</string>
+		<string name="string_user_birthday_year_unit">年</string>
+		<string name="string_user_birthday_month_unit">月</string>
+		<string name="string_user_birthday_day_unit">日</string>
+	<string name="string_user_sexy_content">%1$s</string>
+		<string name="string_user_sexy_man">男</string>
+		<string name="string_user_sexy_woman">女</string>
+	
+	<!-- Name:Robin  Time:20150921  Function:显示跑步的数量 -->
+	<string name="string_steps_content">%1$d 步</string>
+	<string name="user_target_steps_text">步</string>
+	<string name="tv_setting_steps">10000 步</string>
+	
+	<string name="string_sleep_hours_content">%1$d 小时</string>
+	<string name="user_target_sleep_text">小时</string>
+	<string name="tv_setting_sleep">8 小时</string>
+	
+	<!-- Name:Robin  Time:20150924  Function:  修改密码 -->
+	<string name="string_user_info_change_pwd">修改密码</string>	
+	<string name="string_user_password_old">请输入原密码</string>
+	<string name="string_user_password_new">请输入新密码</string>
+	<string name="string_user_password_new_re">请再次输入新密码</string>
+	<string name="string_user_pwd_change_submit">提  交</string>
+	<string name="string_old_pwd_error">输入的密码与原密码不相符</string>
+	<string name="string_new_pwd_error">新密码格式错误</string>
+	<string name="string_doing_submit">正在提交新密码……</string>
+	<string name="string_change_pwd_failure">修改密码失败,请重新修改！</string>
+	<string name="string_change_pwd_success">密码修改成功</string>
+	<string name="string_setting_new_password">设置新密码</string>
+	
+	<string name="string_loading_data">正在加载数据……</string>
+	
+	<string name="string_login_code_error_send">新密码正在发送中，请稍后……</string>
+	<string name="get_test_code">获取验证码</string>
+	<string name="again_get_test_code">重新找回密码</string>
+	
+	<!-- 退出提示 -->
+	<string name="exit_notice">提示</string>
+	<string name="exit_content">确定退出吗？</string>
+	<string name="exit_select_back">后台运行</string>
+	<string name="exit_select_exit">退出</string>
+	
+	<!-- 分享提示相关 -->
+	<string name="share_start">开始分享……</string>
+	<string name="share_complete">分享完成!</string>
+	<string name="share_title_sport">我的运动</string>
+	<string name="share_title_sleep">我的睡眠</string>
+	<string name="share_title_rank">来自极致手环的分享</string>
+	<string name="share_dialog_title">分享</string>
+	
+	<!-- APP 更新相关 -->
+	<string name="apk_is_downloading">正在下载…</string>
+	<string name="apk_is_downloading_wait">请稍后……</string>
+	<string name="apk_is_connected_internet">正在联网检查中，请稍后……</string>
+	
+	<!-- 头像上传提示 -->
+	<string name="avatar_update_success">头像上传成功！</string>
+	
+	<!-- 注册后直接登录 -->
+	<string name="setting_usr_info_act_basic_title">完善个人资料</string>
+	<string name="setting_usr_info_act_detail_title">我的资料</string>
+	<string name="setting_usr_info_detail_complete">完&#160;&#160;成</string>
+	<string name="string_title_skip">跳 过</string>
+	<string name="edittext_usr_info_basic">请输入您的昵称</string>
+	<string name="setting_usr_info_act_basic_next_btn">下一步</string>
+	<string name="please_set_the_avatar">请先设置头像</string>
+	<string name="please_set_the_nickname">请先设置昵称</string>
+	<string name="please_set_the_height">请先设置身高</string>
+	<string name="please_set_the_weight">请先设置体重</string>
+	<string name="please_set_the_sex">请先设置性别</string>
+	<string name="please_set_the_birthday">请先设置生日</string>
+	
+	<!-- 下拉刷新 没有网络时的提示 -->
+	<string name="no_network_state_notice">当前无网络，请设置网络连接！</string>
+	
+	<!-- 无网络情况下，基本资料设置页面提示 -->
+	<string name="avatar_update_no_network_fail">头像上传失败，请检查网络！</string>
+	<string name="change_user_info_no_network_fail">修改失败，请检查网络！</string>
+	
+</resources>

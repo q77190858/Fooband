@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?><RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <ImageView
+        android:id="@+id/id_iv_welcome_launcher"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" 
+        android:scaleType="fitXY"   
+        android:src="@drawable/logo_ro"
+        android:visibility="gone" />
+  
+    <ImageView
+        android:id="@+id/id_iv_welcome_l"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="120dp"
+        android:contentDescription="@string/dummy"
+        android:scaleType="centerInside"
+        android:src="@drawable/logo"
+        android:visibility="visible" />
+   
+
+    <TextView
+        android:id="@+id/versionNumber"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignRight="@id/id_iv_welcome_l"
+        android:layout_below="@id/id_iv_welcome_l"
+        android:layout_centerHorizontal="true"
+        android:gravity="bottom"
+        android:text="@string/app_version"
+        android:textColor="#444444"
+        android:textSize="12sp" 
+        android:visibility="visible">
+    </TextView>
+    
+	<TextView
+	    android:id="@+id/id_tv_thanks_alot"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@id/versionNumber"
+	    android:layout_centerHorizontal="true"
+	    android:layout_margin="20dp"
+	    android:gravity="center"
+	    android:text="@string/app_thanks_alot"
+	    android:textColor="#444444"
+	    android:textSize="12sp"
+	    android:visibility="visible" >
+    </TextView>
+
+</RelativeLayout>

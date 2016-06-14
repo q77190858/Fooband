@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout android:id="@+id/id_ll_sedentary_content"
+    android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+    android:background="@color/white"
+    android:orientation="vertical"
+   	android:layout_marginLeft="16dp"
+	android:layout_marginRight="16dp"
+	android:gravity="center_horizontal"
+    xmlns:android="http://schemas.android.com/apk/res/android" >
+
+	<include layout="@layout/included_setting_dialog_title" />
+
+	<ImageView
+	    android:id="@+id/usr_info_sexy"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_marginTop="10dp"
+	    android:contentDescription="@string/dummy"
+	    android:src="@drawable/sex_changeman" />
+		
+</LinearLayout>

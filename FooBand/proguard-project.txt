@@ -1,0 +1,30 @@
+-dontwarn org.**
+
+-keepattributes EnclosingMethod, InnerClasses
+-keepattributes *Annotation*
+-keepattributes Signature
+-keepattributes SourceFile,LineNumberTable
+
+-keep class android.support.** { *; }
+-keep class org.** { *; }
+-keep class com.google.gson.** { *; }
+
+-keepclassmembers enum * { *; }
+
+-keepclasseswithmembernames class * {
+    native <methods>;
+}
+
+# UMENG
+-keepclassmembers class * {
+   public <init>(org.json.JSONObject);
+}
+
+# ignore logcat
+-assumenosideeffects class android.util.Log {
+public static *** d(...);
+public static *** v(...);
+public static *** i(...);
+public static *** w(...);
+public static *** e(...);
+}

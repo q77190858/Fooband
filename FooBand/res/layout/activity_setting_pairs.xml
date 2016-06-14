@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/id_ll_sedentary_content"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+	android:background="@color/whitesmoke"
+    android:orientation="vertical" >
+
+    <include layout="@layout/included_setting_activity_title" />
+
+    <RelativeLayout
+        android:id="@+id/id_ly_pairs_content"
+        android:layout_width="wrap_content"
+        android:layout_height="match_parent"
+        android:layout_gravity="center_horizontal" >
+
+        <ImageView
+            android:id="@+id/id_iv_pairs_content"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="64dp"
+            android:contentDescription="@string/dummy"
+            android:src="@drawable/binding_new_device" />
+
+        <Button
+            android:id="@+id/id_btn_pairs_new_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="86dp"
+            android:text="@string/string_btn_pairs_start" />
+
+        <ProgressBar
+            android:id="@+id/id_pgb_scan_device"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true" />
+
+        <TextView
+            android:id="@+id/id_tv_calendar1_title"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@id/id_btn_pairs_new_device"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="32dp"
+            android:layout_marginLeft="64dp"
+            android:text="@string/bind_device_attention" />
+
+    </RelativeLayout>
+
+</LinearLayout>

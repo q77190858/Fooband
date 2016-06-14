@@ -1,0 +1,34 @@
+<resources>
+    <string name="dfu_unknown_name">Appareil sans nomAppareil sans nom</string>
+    
+    <string name="dfu_action_abort">AnnulerAnnuler</string>
+
+    <string name="dfu_status_initializing">Initialisation&#8230;</string>
+    <string name="dfu_status_connecting">Connexion en cours&#8230;</string>
+    <string name="dfu_status_starting">Début DFU&#8230;</string>
+    <string name="dfu_status_uploading">Transfert en cours&#8230;</string>
+    <string name="dfu_status_uploading_part" formatted="false">Transfert de la partie %d/%d&#8230;</string>
+    <string name="dfu_status_validating">Validation&#8230;</string>
+    <string name="dfu_status_disconnecting">Déconnexion&#8230;</string>
+    <string name="dfu_status_completed">TerminéTerminé</string>
+    <string name="dfu_status_aborted">AnnuléAnnulé</string>
+    <string name="dfu_status_aborting">Annulation en cours&#8230;</string>
+    <string name="dfu_status_error">Le transfert a échoué</string>
+    
+    <string name="dfu_status_connecting_msg">Connexion à %s&#8230;</string>
+    <string name="dfu_status_starting_msg">Initialisation du processus DFU&#8230;</string>
+    <string name="dfu_status_uploading_components_msg">Transmission des composants à %s &#8230;</string>
+    <string name="dfu_status_uploading_msg">Transmission de l\'application à %s&#8230;</string>
+    <string name="dfu_status_validating_msg">Validation&#8230;</string>
+    <string name="dfu_status_completed_msg">L\'application a été transmise.</string>
+    <string name="dfu_status_aborted_msg">La transmission de l\'application a été annulée.</string>
+    <string name="dfu_status_disconnecting_msg">Déconnexion de %s&#8230;</string>
+    <string name="dfu_status_error_msg">Echec du processus DFU.</string>
+    
+	<string name="dfu_progress">%d%%</string>
+</resources>
+
+<!-- 
+
+ -->	
+	
